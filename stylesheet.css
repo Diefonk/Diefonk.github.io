@@ -32,6 +32,21 @@ div {
 	margin-bottom: 7px;
 	padding: 14px;
 }
+@font-face {
+	font-family: DeusXO;
+	src: url(DeusXO.ttf);
+}
+@font-face {
+	font-family: KindFoe;
+	src: url(KindFoe.ttf);
+}
+h1 {
+	margin: auto;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	font-size: 5em;
+}
 #index {
 	padding: 7px 14px 7px 14px;
 }
@@ -70,35 +85,6 @@ div {
 	font-size: 1em;
 	color: #000000;
 }
-#content iframe {
-	margin: 7px;
-	border: 1px solid #000000;
-}
-#content .right {
-	float: right;
-}
-#content .left {
-	float: left;
-}
-#content .center {
-	margin: auto;
-	display: block;
-}
-@font-face {
-	font-family: DeusXO;
-	src: url(DeusXO.ttf);
-}
-@font-face {
-	font-family: KindFoe;
-	src: url(KindFoe.ttf);
-}
-h1 {
-	margin: auto;
-	margin-bottom: 0px;
-	text-align: center;
-	font-family: Verdana, sans-serif;
-	font-size: 5em;
-}
 h2 {
 	margin: 7px;
 	font-family: Verdana, sans-serif;
@@ -115,18 +101,36 @@ h3 {
 	margin: 7px;
 	border: 1px solid #000000;
 }
+#content iframe {
+	margin: 7px;
+	border: 1px solid #000000;
+}
+#content .right {
+	float: right;
+}
+#content .left {
+	float: left;
+}
+#content .center {
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+hr {
+	border-color: #424242;
+}
 p {
 	margin: 7px;
 	font-family: Cambria, Times, serif;
 	font-size: 1em;
-}
-#footer p {
-	text-align: center;
-	margin: auto;
 }
 a {
 	color: #424242;
 }
 a:hover, a:visited {
 	color: #000000;
+}
+#footer p {
+	text-align: center;
+	margin: auto;
 }

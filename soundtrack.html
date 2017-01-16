@@ -3,26 +3,12 @@
 	<head>
 		<title>Soundtrack - Diefonk</title>
 		<link rel="stylesheet" href="stylesheet.css">
-		<script>
-			function setBG() {
-				switch(Math.floor((Math.random() * 7))) {
-					case 0: document.body.className = "purple"; break;
-					case 1: document.body.className = "blue"; break;
-					case 2: document.body.className = "cyan"; break;
-					case 3: document.body.className = "green"; break;
-					case 4: document.body.className = "yellow"; break;
-					case 5: document.body.className = "orange"; break;
-					case 6: document.body.className = "red"; break;
-					default: break;
-				}
-			}
-		</script>
+		<script src="script.js"></script>
 	</head>
 	<body onload="setBG()">
 		<div id="content">
-			<iframe width="560" height="315"
-			src="https://www.youtube.com/embed/videoseries?list=PL42WjYrSldSQ_zW4oUZjtUIFb84gRp4Ii"
-			frameborder="0" allowfullscreen class="center"></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL42WjYrSldSQ_zW4oUZjtUIFb84gRp4Ii" frameborder="0" allowfullscreen class="center"></iframe>
+			<p><a href="https://www.youtube.com/playlist?list=PL42WjYrSldSQ_zW4oUZjtUIFb84gRp4Ii" target="_blank" class="center">The soundtrack to my life</a></p>
 		</div>
 	</body>
 </html>
