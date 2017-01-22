@@ -68,3 +68,21 @@ p {
 	text-align: center;
 	margin: auto;
 }
+.google {
+	color: #4285f4;
+}
+.twitter {
+	color: #1da1f2;
+}
+.tumblr {
+	color: #35465c;
+}
+.youtube {
+	color: #cd201f;
+}
+.twitch {
+	color: #6441a5;
+}
+.twitchfaded {
+	color: #b9a3e3;
+}
