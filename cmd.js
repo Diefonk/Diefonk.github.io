@@ -1,59 +1,104 @@
-function enter(e) {
-	if (e.keyCode === 13) {
-		e.preventDefault();
-		append("cmd> " + document.getElementById("in").value);
-		switch(document.getElementById("in").value) {
-			case "help": appendA(help); break;
-			case "gui": window.open("index.html", "_self"); break;
-			case "code": appendA(code); break;
-			case "processing": window.open("https://github.com/Diefonk/processing-projects", "_blank"); break;
-			case "animecampaign": window.open("http://animecampaign.tk/", "_blank"); break;
-			case "clear": location.reload(); break;
-			case "make me a sandwich": append("What? Make it yourself."); break;
-			case "sudo make me a sandwich": append("Okay."); break;
-			case "xyzzy": append("Nothing happens"); break;
-			default: append("Command not found"); break;
+function onLoad() {
+	printString("diefonk.github.io");
+	document.getElementById("prompt").innerHTML = prompt;
+	focusInput();
+}
+
+function handleInput(aEvent) {
+	if (aEvent.keyCode === 13) {
+		aEvent.preventDefault();
+		printString(prompt + document.getElementById("input").value);
+		switch (document.getElementById("input").value) {
+			case "help":
+				printString("How can I help you if I can't even help myself?");
+				break;
+			case "clear":
+				location.reload();
+				break;
+			case "make me a sandwich":
+				printString("What? Make it yourself.");
+				break;
+			case "sudo make me a sandwich":
+				printString("Okay.");
+				break;
+			case "xyzzy":
+				printString("Nothing happens");
+				break;
+			case "about":
+				printRandom(about);
+				break;
+			case "":
+				break;
+			default:
+				printString("Command not found");
+				break;
 		}
-		document.getElementById("in").value = "";
+		document.getElementById("input").value = "";
 	}
 }
-function append(text) {
-	var out = document.createElement("P");
-	var t = document.createTextNode(text);
-	out.appendChild(t);
-	document.getElementById("out").appendChild(out);
+
+function printString(aString) {
+	var output = document.createElement("p");
+	var text = document.createTextNode(aString);
+	output.appendChild(text);
+	document.getElementById("output").appendChild(output);
 }
-function appendA(text) {
-	var out = document.createElement("P");
-	var t = document.createTextNode(text[0]);
-	out.appendChild(t);
-	for (var i = 1; i < text.length; i++) {
-		var br = document.createElement("br");
-		out.appendChild(br);
-		t = document.createTextNode(text[i]);
-		out.appendChild(t);
+
+function printArray(aArray) {
+	var output = document.createElement("p");
+	var text = document.createTextNode(aArray[0]);
+	output.appendChild(text);
+	for (var index = 1; index < aArray.length; index++) {
+		var newLine = document.createElement("br");
+		output.appendChild(newLine);
+		text = document.createTextNode(aArray[index]);
+		output.appendChild(text);
 	}
-	document.getElementById("out").appendChild(out);
-}
-function inFocus() {
-	document.getElementById("in").focus();
+	document.getElementById("output").appendChild(output);
 }
 
-var help = [
-	"gui - Opens a graphical version of this website",
-	"all - Returns all lists of things I've made",
-	"code - Returns a list of things I've coded",
-	//"games - Returns a list of games I've made",
-	//"stories - Returns a list of stories I've written",
-	"other - Returns a list of other things I've made",
-	"clear - Clears all commands",
-	"help - Returns this list"
-];
+function printRandom(aArray) {
+	var index = Math.floor(Math.random() * aArray.length);
+	var output = document.createElement("p");
+	var text = document.createTextNode(aArray[index]);
+	output.appendChild(text);
+	document.getElementById("output").appendChild(output);
+}
 
-var code = [
-	"*Processing Projects (type 'processing' to open):",
-	"Various projects made in Processing.",
-	"Everything is to varying degrees completely useless.",
-	"*animecampaign.tk (type 'animecampaign' to open):",
-	"An unofficial collection of Anime Campaign stuff."
+function focusInput() {
+	document.getElementById("input").focus();
+}
+
+var prompt = "cmd> ";
+
+var about = [
+	"Diefonk is tired",
+	"Diefonk is a rogue wall enthusiast",
+	"Diefonk makes things",
+	"Diefonk is a boyish girl making games about girly boys",
+	"Diefonk is a girly boy writing stories about boyish girls",
+	"Diefonk makes games",
+	"Diefonk writes stories",
+	"Diefonk plays music",
+	"Diefonk is not here right now. Can I take a message?",
+	"Diefonk wants to be everything at once",
+	"Diefonk is just a dreamer",
+	"Diefonk is my name, and making games is my game.",
+	"Diefonk is probably watching Netflix right now",
+	"Diefonk is probably playing Tetris right now",
+	"Diefonk is procrastinating",
+	"Diefonk watches the watchmen",
+	"Diefonk has a lot of stuff to do",
+	"Diefonk coded this website",
+	"Diefonk is a figment",
+	"Diefonk would like to inform you that you just lost The Game",
+	"Diefonk doesn’t have time for this",
+	"Diefonk is probably reading comics right now",
+	"Diefonk is probably sleeping right now",
+	"Diefonk is probably not sleeping right now",
+	"Diefonk is probably just thinking about stuff and things right now",
+	"Diefonk is probably watching anime right now",
+	"Diefonk is loading, please wait…",
+	"Diefonk is a fan of wet circles",
+	"Diefonk should be sleeping"
 ];
