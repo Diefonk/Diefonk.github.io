@@ -7,8 +7,10 @@ function onLoad() {
 function handleInput(aEvent) {
 	if (aEvent.keyCode === 13) {
 		aEvent.preventDefault();
+		//commandHistory.push(document.getElementById("input").value);
+		//currentCommand = commandHistory.length + 1;
 		printString(prompt + document.getElementById("input").value);
-		switch (document.getElementById("input").value) {
+		switch (document.getElementById("input").value.toLowerCase()) {
 			case "help":
 				printString("How can I help you if I can't even help myself?");
 				break;
@@ -24,6 +26,12 @@ function handleInput(aEvent) {
 			case "xyzzy":
 				printString("Nothing happens");
 				break;
+			case "send nudes":
+				printString("No.");
+				break;
+			case "send noots":
+				printString("NOOT NOOT");
+				break;
 			case "about":
 				printRandom(about);
 				break;
@@ -34,7 +42,32 @@ function handleInput(aEvent) {
 				break;
 		}
 		document.getElementById("input").value = "";
+		window.scrollTo(0, document.body.scrollHeight);
 	}
+	/*else if (aEvent.keyCode === 38) {
+		aEvent.preventDefault();
+		if (currentCommand === commandHistory.length + 1) {
+			commandHistory.push(document.getElementById("input").value);
+			currentCommand--;
+		}
+		currentCommand--;
+		if (currentCommand < 0) {
+			currentCommand = 0;
+		}
+		document.getElementById("input").value = commandHistory[currentCommand];
+	}
+	else if (aEvent.keyCode === 40) {
+		aEvent.preventDefault();
+		currentCommand++;
+		if (currentCommand === commandHistory.length) {
+			currentCommand = commandHistory.length - 1;
+		} else if (currentCommand > commandHistory.length) {
+			currentCommand = commandHistory.length + 1;
+			return;
+		}
+		document.getElementById("input").value = commandHistory[currentCommand];
+	}*/
+	//TODO history by pressing arrow keys
 }
 
 function printString(aString) {
@@ -70,6 +103,8 @@ function focusInput() {
 }
 
 var prompt = "cmd> ";
+//var commandHistory = [];
+//var currentCommand = 0;
 
 var about = [
 	"Diefonk is tired",
