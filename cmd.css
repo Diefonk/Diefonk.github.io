@@ -4,7 +4,7 @@ body {
 }
 p, input {
 	font-family: monospace;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	color: #00ff00;
 }
 input, #prompt {
