@@ -135,5 +135,9 @@ var about = [
 	"Diefonk is probably watching anime right now",
 	"Diefonk is loading, please wait…",
 	"Diefonk is a fan of wet circles",
-	"Diefonk should be sleeping"
+	"Diefonk should be sleeping",
+	"Diefonk once stayed in bed for six hours after waking up",
+	"Diefonk is trying",
+	"Diefonk learned HTML and CSS on Codecademy",
+	"Diefonk is a rainbow aficionado"
 ];
