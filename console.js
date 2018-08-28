@@ -19,7 +19,7 @@ function init() {
 	currentDirectory = new Directory("index");
 	currentDirectory.addFile("https://twitter.com/Diefonk", "Twitter");
 	currentDirectory.addFile("https://www.youtube.com/user/Diefonk", "YouTube");
-	currentDirectory.addFile("https://diefonk-wip.tumblr.com/", "Tumblr");
+	currentDirectory.addFile("http://blog.diefonk.net/", "Tumblr");
 	currentDirectory.addFile("https://diefonk.itch.io/", "itch.io");
 	currentDirectory.addFile("https://github.com/Diefonk", "GitHub");
 	currentDirectory.addFile("https://soundcloud.com/diefonk", "SoundCloud");
