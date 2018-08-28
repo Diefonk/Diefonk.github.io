@@ -27,7 +27,7 @@ function init() {
 	currentDirectory.addDirectory(games);
 	currentDirectory.makeList();
 
-	print("Welcome to diefonk.github.io\nType 'help' for a list of commands");
+	print("Welcome to diefonk.net\nType 'help' for a list of commands");
 	setPrompt();
 	focusInput();
 }
@@ -35,8 +35,11 @@ function init() {
 function handleInput(aEvent) {
 	if (aEvent.keyCode === 13) {
 		aEvent.preventDefault();
+
 		print(prompt + document.getElementById("input").value);
 		const input = document.getElementById("input").value.toLowerCase();
+		document.getElementById("input").value = "";
+
 		if (input === "help") {
 			print("about - returns some information about Diefonk");
 			print("cd - changes directory to specified directory");
@@ -90,7 +93,6 @@ function handleInput(aEvent) {
 		} else {
 			print("Command not found\nType 'help' for a list of commands");
 		}
-		document.getElementById("input").value = "";
 		window.scrollTo(0, document.body.scrollHeight);
 	}
 }
