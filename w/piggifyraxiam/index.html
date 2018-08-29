@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Piggify Raxiam</title>
+		<script>
+			function playMusic() {
+				document.getElementById("music").play();
+				var button = document.getElementById("unmute");
+				button.parentNode.removeChild(button);
+			}
+		</script>
+	</head>
+	<body>
+		<p style="text-align: center">
+			<img src="PiggifyRaxiam.gif"><br>
+			<button type="button" onclick="playMusic()" id="unmute">Unmute</button>
+		</p>
+		<!--Background music: "Carefree" by Kevin MacLeod | http://incompetech.com/-->
+		<audio loop src="Carefree.mp3" id="music">
+	</body>
+</html>

@@ -10,10 +10,10 @@ function init() {
 
 	var games = new Directory("games");
 	games.addFile("https://diefonk.itch.io/pizza-dress-up", "Pizza Dress-Up.js");
-	games.addFile("https://drive.google.com/drive/folders/1ko7IG3FnUxR1QBOHg39d2YUts0BJroTy", "The Last Delivery.love");
-	games.addFile("https://drive.google.com/drive/folders/1ko7IG3FnUxR1QBOHg39d2YUts0BJroTy", "Perkele Saatana.exe");
-	games.addFile("https://drive.google.com/drive/folders/1ko7IG3FnUxR1QBOHg39d2YUts0BJroTy", "Scout Mountain.exe");
-	games.addFile("https://drive.google.com/drive/folders/1ko7IG3FnUxR1QBOHg39d2YUts0BJroTy", "The Legend of Yuki.exe");
+	games.addFile("g/tga", "The Last Delivery.love");
+	games.addFile("g/tga", "Perkele Saatana.exe");
+	games.addFile("g/tga", "Scout Mountain.exe");
+	games.addFile("g/tga", "The Legend of Yuki.exe");
 	games.makeList();
 
 	currentDirectory = new Directory("index");
