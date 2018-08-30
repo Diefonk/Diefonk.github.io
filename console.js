@@ -17,12 +17,12 @@ function init() {
 	games.makeList();
 
 	currentDirectory = new Directory("index");
-	currentDirectory.addFile("https://twitter.com/Diefonk", "Twitter");
-	currentDirectory.addFile("https://www.youtube.com/user/Diefonk", "YouTube");
-	currentDirectory.addFile("http://blog.diefonk.net/", "Tumblr");
-	currentDirectory.addFile("https://diefonk.itch.io/", "itch.io");
-	currentDirectory.addFile("https://github.com/Diefonk", "GitHub");
-	currentDirectory.addFile("https://soundcloud.com/diefonk", "SoundCloud");
+	currentDirectory.addFile("https://twitter.com/Diefonk", "Twitter.url");
+	currentDirectory.addFile("https://www.youtube.com/user/Diefonk", "YouTube.url");
+	currentDirectory.addFile("https://blog.diefonk.net/", "Tumblr.url");
+	currentDirectory.addFile("https://diefonk.itch.io/", "itch.io.url");
+	currentDirectory.addFile("https://github.com/Diefonk", "GitHub.url");
+	currentDirectory.addFile("https://soundcloud.com/diefonk", "SoundCloud.url");
 	currentDirectory.addDirectory(code);
 	currentDirectory.addDirectory(games);
 	currentDirectory.makeList();
