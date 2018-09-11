@@ -10,6 +10,7 @@ function init() {
 
 	var games = new Directory("games");
 	games.addFile("https://diefonk.itch.io/pizza-dress-up", "Pizza Dress-Up.js");
+	games.addFile("https://diefonk.itch.io/potato-simulator-2014-remix", "Potato Simulator 2014 Remix.js");
 	games.addFile("g/tga", "The Last Delivery.love");
 	games.addFile("g/tga", "Perkele Saatana.exe");
 	games.addFile("g/tga", "Scout Mountain.exe");
@@ -136,6 +137,7 @@ const about = [
 	"makes music",
 	"makes things",
 	"writes stories",
+	"writes code",
 	"is a boyish girl making games about girly boys",
 	"is a girly boy writing stories about boyish girls",
 	"is a rogue wall enthusiast",
@@ -162,6 +164,7 @@ const about = [
 	"should be sleeping",
 	"is tired",
 	"is trying",
-	"once stayed in bed for six hours after waking up",
-	"would like to inform you that you just lost The Game"
+	"is awkward",
+	"is your best nightmare",
+	"once stayed in bed for six hours after waking up"
 ];
