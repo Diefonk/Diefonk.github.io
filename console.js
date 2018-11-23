@@ -11,10 +11,10 @@ function init() {
 	var games = new Directory("games");
 	games.addFile("https://diefonk.itch.io/pizza-dress-up", "Pizza Dress-Up.js");
 	games.addFile("https://diefonk.itch.io/potato-simulator-2014-remix", "Potato Simulator 2014 Remix.js");
-	games.addFile("g/tga", "The Last Delivery.love");
-	games.addFile("g/tga", "Perkele Saatana.exe");
-	games.addFile("g/tga", "Scout Mountain.exe");
-	games.addFile("g/tga", "The Legend of Yuki.exe");
+	games.addFile("https://www.youtube.com/watch?v=R9C-zt9qiCQ", "The Last Delivery.love");
+	games.addFile("https://www.youtube.com/watch?v=Yjci0tsSi7U", "Perkele Saatana.exe");
+	games.addFile("https://www.youtube.com/watch?v=vsLAysfyoFM", "Scout Mountain.exe");
+	games.addFile("https://www.youtube.com/watch?v=UhLma8DKR84", "The Legend of Yuki.exe");
 	games.makeList();
 
 	currentDirectory = new Directory("index");
