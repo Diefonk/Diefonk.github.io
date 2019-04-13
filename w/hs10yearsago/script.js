@@ -1,21 +1,18 @@
 function init() {
-	let d = new Date();
-	let year = d.getFullYear();
-	year -= 10;
-	let month = d.getMonth();
-	let day = d.getDate();
+	let dateNow = new Date();
+	dateNow.setFullYear(dateNow.getFullYear() - 10);
 
 	let latestUpdateIndex;
 	for (let index = 0; index < log.length; index++) {
-		latestUpdateIndex = index;
-		if (year > log[index].year) {
-			continue;
-		} else if (month > log[index].month) {
-			continue;
-		} else if (day > log[index].day) {
-			continue;
+		let dateThen = new Date();
+		dateThen.setFullYear(Number(log[index].year));
+		dateThen.setMonth(Number(log[index].month) - 1);
+		dateThen.setDate(Number(log[index].day));
+		if (dateThen > dateNow) {
+			latestUpdateIndex = index - 1;
+			break;
 		}
-		break;
+		latestUpdateIndex = index;
 	}
 
 	addUpdate(log[latestUpdateIndex], "latest");
