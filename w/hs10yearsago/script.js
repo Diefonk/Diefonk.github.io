@@ -4,6 +4,7 @@ function init() {
 	year -= 10;
 	let month = d.getMonth();
 	let day = d.getDate();
+
 	let latestUpdateIndex;
 	for (let index = 0; index < log.length; index++) {
 		latestUpdateIndex = index;
@@ -16,18 +17,30 @@ function init() {
 		}
 		break;
 	}
-	let date = log[latestUpdateIndex].year + "-" + log[latestUpdateIndex].month + "-" + log[latestUpdateIndex].day;
-	let p = document.createElement("h4");
-	p.appendChild(document.createTextNode(date));
-	document.getElementById("latest").appendChild(p);
-	let a = document.createElement("a");
-	a.appendChild(document.createTextNode("First page: " + log[latestUpdateIndex].first));
-	a.href = "https://homestuck.com/story/" + log[latestUpdateIndex].first;
-	document.getElementById("latest").appendChild(a);
-	let br = document.createElement("br");
-	document.getElementById("latest").appendChild(br);
-	a = document.createElement("a");
-	a.appendChild(document.createTextNode("Last page: " + log[latestUpdateIndex].last));
-	a.href = "https://homestuck.com/story/" + log[latestUpdateIndex].last;
-	document.getElementById("latest").appendChild(a);
+
+	addUpdate(log[latestUpdateIndex], "latest");
+
+	if (latestUpdateIndex < log.length - 1) {
+		addUpdate(log[latestUpdateIndex + 1], "next");
+	}
+}
+
+function addUpdate(aUpdate, aID) {
+	let date = aUpdate.year + "-" + aUpdate.month + "-" + aUpdate.day;
+	let dateElement = document.createElement("h4");
+	dateElement.appendChild(document.createTextNode(date));
+	document.getElementById(aID).appendChild(dateElement);
+
+	let firstElement = document.createElement("a");
+	firstElement.appendChild(document.createTextNode("First page: " + aUpdate.first));
+	firstElement.href = "https://homestuck.com/story/" + aUpdate.first;
+	document.getElementById(aID).appendChild(firstElement);
+
+	let lineBreak = document.createElement("br");
+	document.getElementById(aID).appendChild(lineBreak);
+
+	let lastElement = document.createElement("a");
+	lastElement.appendChild(document.createTextNode("Last page: " + aUpdate.last));
+	lastElement.href = "https://homestuck.com/story/" + aUpdate.last;
+	document.getElementById(aID).appendChild(lastElement);
 }
