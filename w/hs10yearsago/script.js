@@ -4,7 +4,7 @@ function init() {
 
 	let latestUpdateIndex;
 	for (let index = 0; index < log.length; index++) {
-		let dateThen = new Date();
+		let dateThen = new Date(dateNow);
 		dateThen.setFullYear(Number(log[index].year));
 		dateThen.setMonth(Number(log[index].month) - 1);
 		dateThen.setDate(Number(log[index].day));
@@ -30,7 +30,7 @@ function addUpdate(aUpdate, aID) {
 
 	let firstElement = document.createElement("a");
 	firstElement.appendChild(document.createTextNode("First page: " + aUpdate.first));
-	firstElement.href = "https://homestuck.com/story/" + aUpdate.first;
+	firstElement.href = "https://www.homestuck.com/story/" + aUpdate.first;
 	document.getElementById(aID).appendChild(firstElement);
 
 	let lineBreak = document.createElement("br");
@@ -38,6 +38,6 @@ function addUpdate(aUpdate, aID) {
 
 	let lastElement = document.createElement("a");
 	lastElement.appendChild(document.createTextNode("Last page: " + aUpdate.last));
-	lastElement.href = "https://homestuck.com/story/" + aUpdate.last;
+	lastElement.href = "https://www.homestuck.com/story/" + aUpdate.last;
 	document.getElementById(aID).appendChild(lastElement);
 }
