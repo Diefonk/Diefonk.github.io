@@ -11,10 +11,8 @@ function init() {
 	var games = new Directory("games");
 	games.addFile("https://diefonk.itch.io/pizza-dress-up", "Pizza Dress-Up.js");
 	games.addFile("https://diefonk.itch.io/potato-simulator-2014-remix", "Potato Simulator 2014 Remix.js");
-	games.addFile("https://www.youtube.com/watch?v=R9C-zt9qiCQ", "The Last Delivery.love");
-	games.addFile("https://www.youtube.com/watch?v=Yjci0tsSi7U", "Perkele Saatana.exe");
-	games.addFile("https://www.youtube.com/watch?v=vsLAysfyoFM", "Scout Mountain.exe");
-	games.addFile("https://www.youtube.com/watch?v=UhLma8DKR84", "The Legend of Yuki.exe");
+	games.addFile("https://diefonk.itch.io/9in1", "9in1.js");
+	games.addFile("https://diefonk.itch.io/beast-city-dreamers", "Beast City Dreamers.bitsy");
 	games.makeList();
 
 	currentDirectory = new Directory("index");
@@ -127,44 +125,3 @@ function setPrompt() {
 	prompt = "guest:" + currentDirectory.getName() + "$ ";
 	document.getElementById("prompt").innerHTML = prompt;
 }
-
-const about = [
-	"coded this website",
-	"doesn’t have time for this",
-	"has a lot of stuff to do",
-	"plays the saxophone",
-	"makes games",
-	"makes music",
-	"makes things",
-	"writes stories",
-	"writes code",
-	"is a boyish girl making games about girly boys",
-	"is a girly boy writing stories about boyish girls",
-	"is a rogue wall enthusiast",
-	"is a fan of wet circles",
-	"is a rainbow aficionado",
-	"is a false prophet",
-	"is a figment",
-	"is a dweeb",
-	"is a long series of increasingly worse decisions",
-	"is just a dreamer",
-	"wants to be everything at once",
-	"watches the watchmen",
-	"is loading, please wait…",
-	"is my name and making games is my game",
-	"is not here right now. Can I take a message?",
-	"is procrastinating",
-	"is probably playing Tetris right now",
-	"is probably reading comics right now",
-	"is probably watching anime right now",
-	"is probably watching Netflix right now",
-	"is probably just thinking about stuff and things right now",
-	"is probably sleeping right now",
-	"is probably not sleeping right now",
-	"should be sleeping",
-	"is tired",
-	"is trying",
-	"is awkward",
-	"is your best nightmare",
-	"once stayed in bed for six hours after waking up"
-];
