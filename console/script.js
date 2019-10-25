@@ -1,18 +1,27 @@
 const welcomeMessage = "Welcome to diefonk.net\nType 'help' for a list of commands";
 
 //directories and files
-var code = new Directory("code");
-code.addFile("https://github.com/Diefonk/processing-projects", "Processing Projects.pde");
-code.addFile("https://github.com/Diefonk/baebot", "BaeBot.js");
-code.addFile("https://github.com/Diefonk/console-website", "Console Website.js");
-code.makeList();
-
 var games = new Directory("games");
 games.addFile("https://diefonk.itch.io/pizza-dress-up", "Pizza Dress-Up.js");
 games.addFile("https://diefonk.itch.io/potato-simulator-2014-remix", "Potato Simulator 2014 Remix.js");
 games.addFile("https://diefonk.itch.io/9in1", "9in1.js");
 games.addFile("https://diefonk.itch.io/beast-city-dreamers", "Beast City Dreamers.bitsy");
 games.makeList();
+
+var webstuff = new Directory("webstuff");
+webstuff.addFile("../w/animecampaign", "animecampaign.html");
+webstuff.addFile("../w/doesmyfandomhavedrama", "doesmyfandomhavedrama.html");
+webstuff.addFile("../w/happybirthday", "happybirthday.html");
+webstuff.addFile("../w/texttoscrabblevalue", "texttoscrabblevalue.html");
+webstuff.addFile("../w/tournament", "tournament.html");
+webstuff.addFile("../w/hs10yearsago", "hs10yearsago.html");
+webstuff.makeList();
+
+var other = new Directory("other");
+other.addFile("https://github.com/Diefonk/processing-projects", "Processing Projects.pde");
+other.addFile("https://github.com/Diefonk/baebot", "BaeBot.js");
+other.addFile("https://github.com/Diefonk/console-website", "Console Website.js");
+other.makeList();
 
 currentDirectory = new Directory("index");
 currentDirectory.addFile("https://twitter.com/Diefonk", "Twitter.url");
@@ -21,8 +30,9 @@ currentDirectory.addFile("https://blog.diefonk.net/", "Tumblr.url");
 currentDirectory.addFile("https://diefonk.itch.io/", "itch.io.url");
 currentDirectory.addFile("https://github.com/Diefonk", "GitHub.url");
 currentDirectory.addFile("https://soundcloud.com/diefonk", "SoundCloud.url");
-currentDirectory.addDirectory(code);
 currentDirectory.addDirectory(games);
+currentDirectory.addDirectory(webstuff);
+currentDirectory.addDirectory(other);
 currentDirectory.makeList();
 
 //commands
