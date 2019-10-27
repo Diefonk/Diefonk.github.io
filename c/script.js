@@ -2,10 +2,10 @@ const welcomeMessage = "Welcome to diefonk.net\nType 'help' for a list of comman
 
 //directories and files
 var games = new Directory("games");
-games.addFile("https://diefonk.itch.io/pizza-dress-up", "Pizza Dress-Up.js");
-games.addFile("https://diefonk.itch.io/potato-simulator-2014-remix", "Potato Simulator 2014 Remix.js");
+games.addFile("https://diefonk.itch.io/pizza-dress-up", "pizzadressup.js");
+games.addFile("https://diefonk.itch.io/potato-simulator-2014-remix", "potatosimulator2014remix.js");
 games.addFile("https://diefonk.itch.io/9in1", "9in1.js");
-games.addFile("https://diefonk.itch.io/beast-city-dreamers", "Beast City Dreamers.bitsy");
+games.addFile("https://diefonk.itch.io/beast-city-dreamers", "beastcitydreamers.bitsy");
 games.makeList();
 
 var webstuff = new Directory("webstuff");
@@ -18,18 +18,18 @@ webstuff.addFile("../w/hs10yearsago", "hs10yearsago.html");
 webstuff.makeList();
 
 var other = new Directory("other");
-other.addFile("https://github.com/Diefonk/processing-projects", "Processing Projects.pde");
-other.addFile("https://github.com/Diefonk/baebot", "BaeBot.js");
-other.addFile("https://github.com/Diefonk/console-website", "Console Website.js");
+other.addFile("https://github.com/Diefonk/processing-projects", "processingprojects.pde");
+other.addFile("https://github.com/Diefonk/baebot", "baebot.js");
+other.addFile("https://github.com/Diefonk/console-website", "consolewebsite.js");
 other.makeList();
 
 currentDirectory = new Directory("index");
-currentDirectory.addFile("https://twitter.com/Diefonk", "Twitter.url");
-currentDirectory.addFile("https://www.youtube.com/user/Diefonk", "YouTube.url");
-currentDirectory.addFile("https://blog.diefonk.net/", "Tumblr.url");
+currentDirectory.addFile("https://twitter.com/Diefonk", "twitter.url");
+currentDirectory.addFile("https://www.youtube.com/user/Diefonk", "youtube.url");
+currentDirectory.addFile("https://blog.diefonk.net/", "tumblr.url");
 currentDirectory.addFile("https://diefonk.itch.io/", "itch.io.url");
-currentDirectory.addFile("https://github.com/Diefonk", "GitHub.url");
-currentDirectory.addFile("https://soundcloud.com/diefonk", "SoundCloud.url");
+currentDirectory.addFile("https://github.com/Diefonk", "github.url");
+currentDirectory.addFile("https://soundcloud.com/diefonk", "soundcloud.url");
 currentDirectory.addDirectory(games);
 currentDirectory.addDirectory(webstuff);
 currentDirectory.addDirectory(other);
