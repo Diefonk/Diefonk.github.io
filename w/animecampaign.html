@@ -5,29 +5,59 @@
 		<meta name="description" content="An Unofficial Collection of Anime Campaign Stuff">
 		<link rel="stylesheet" href="animecampaign.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wendy+One">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hi+Melody">
+		<script>
+			function backgroundColor() {
+				switch (document.body.className) {
+					case "yellow":
+						document.body.className = "red";
+						break;
+					case "red":
+						document.body.className = "blue";
+						break;
+					case "blue":
+						document.body.className = "green";
+						break;
+					case "green":
+						document.body.className = "yellow";
+						break;
+					default:
+						break;
+				}
+			}
+		</script>
 	</head>
-	<body>
-		<div>
+	<body class="green">
+		<div onclick="backgroundColor()">
 			<h2>An Unofficial Collection of</h2>
 			<h1>ANIME CAMPAIGN</h1>
 			<h3>Stuff</h3>
 		</div>
 		<div id="navigation">
-			<a href="animecampaign.html"><div id="current">List of Episodes</div></a>
-			<a href="https://docs.google.com/document/d/1FDjPzvwzjypF0LUFjHpHELCMycIL7NA2g5BFPlEdYTo" target="_blank"><div>How To Play</div></a>
-			<a href="http://sta.sh/0coqacdkze6" target="_blank"><div>Character Sheet</div></a>
-			<a href="http://arklandscapelands.tumblr.com" target="_blank"><div>Official Fan Content Archive</div></a>
-			<a href="http://tvtropes.org/pmwiki/pmwiki.php/Roleplay/AnimeCampaign" target="_blank"><div>TV Tropes Page</div></a>
+			<a href="#about"><div>About Anime Campaign</div></a>
+			<a href="#episodes"><div>Main Episodes</div></a>
+			<a href="#fillers"><div>Filler Episodes</div></a>
+			<a href="#links"><div>External Links</div></a>
 		</div>
-		<div id="navigation">
-			<a href="http://anime-campaign.wikia.com/wiki/Anime_Campaign_Wikia" target="_blank"><div>Wikia Page</div></a>
-			<a href="https://docs.google.com/spreadsheets/d/1pusrw5N_nbeibm4oVJAENTQ7Ws1JQOatar866FVTJeU" target="_blank"><div>All Dice Rolls</div></a>
-			<a href="https://docs.google.com/document/d/15pC1ocyVrDhl8UKU4FDOcB4DrbqhOe1vtkIgnOdc9B8" target="_blank"><div>Jukebox Archive</div></a>
-			<a href="https://drive.google.com/drive/folders/1M9-Yr8L-cXoiNort9hemj8IGCwpWL1kj" target="_blank"><div>Character Icons and Assets</div></a>
-			<!--<a href="https://docs.google.com/document/d/1fIjSXGWJ4N6YbRB69EH0UU-YWU4Ga1xcZiEOZKP6ifk" target="_blank"><div>Characters as Fire Emblem Characters</div></a>-->
-			<a href="https://docs.google.com/document/d/1ilED-AdKiuCx7V5WoqS5L_k6NojdspAGuoUTb46nDkQ" target="_blank"><div>Characters as Pokémon Trainers</div></a>
+		<div id="about">
+			<h2>About Anime Campaign</h2>
+			<p style="text-align: left; margin: 7px">
+				Anime Campaign was a series of Twitch streams featuring
+				<a href="https://www.youtube.com/user/JelloApocalypse" target="_blank">JelloApocalypse</a>
+				and friends playing a tabletop role-playing game. They used a
+				custom system (known both as the Anime Campaign System and the
+				Epithet System), which was based on the
+				<a href="https://urealms.com/" target="_blank">URealms</a> system.
+				Most of the series was streamed on the
+				<a href="https://www.twitch.tv/surpriseroundrpg" target="_blank">Surprise Round Twitch channel</a>
+				(previously WarpedLamp).<br><br>
+				There is also a scripted adaptation of Anime Campaign called
+				Epithet Erased, which is availble on
+				<a href="https://www.youtube.com/playlist?list=PLHACfIDFF66rxMt46cSoVxUulvL3bKluM" target="_blank">YouTube</a>
+				and <a href="https://vrv.co/" target="_blank">VRV</a>.
+			</p>
 		</div>
-		<div>
+		<div id="episodes">
 			<h2>Main Episodes</h2>
 			<table>
 				<tr>
@@ -72,7 +102,7 @@
 						<a href="https://www.youtube.com/watch?v=C2y3IeHn4ys" target="_blank">Arimnaes</a>
 					</td>
 					<td>
-						<a href="https://twitter.com/Welcome2Tweet/status/731526347990781952" target="_blank" class="twitter">Twitter Announcement</a><br>
+						<a href="https://twitter.com/Welcome2Tweet/status/731526347990781952" target="_blank" class="twitter">Twitter Announcement</a><br><br>
 						<a href="https://www.twitch.tv/videos/66626557" target="_blank" class="twitch">Full Episode Part 1</a><br>
 						<a href="https://www.twitch.tv/videos/66627374" target="_blank" class="twitch">Full Episode Part 2</a>
 					</td>
@@ -92,7 +122,7 @@
 					</td>
 					<td>
 						<a href="https://twitter.com/Welcome2Tweet/status/739478737721266176" target="_blank" class="twitter">Twitter Announcement</a><br>
-						<a href="http://jelloapocalypse.tumblr.com/post/145441478467/hey-guys-im-hosting-part-2-of-this-ridiculous" target="_blank" class="tumblr">Tumblr Announcement</a><br>
+						<a href="http://jelloapocalypse.tumblr.com/post/145441478467/hey-guys-im-hosting-part-2-of-this-ridiculous" target="_blank" class="tumblr">Tumblr Announcement</a><br><br>
 						<a href="https://www.twitch.tv/videos/71178587" target="_blank" class="twitch">Full Episode</a>
 					</td>
 				</tr>
@@ -111,8 +141,8 @@
 					</td>
 					<td>
 						<a href="https://twitter.com/Welcome2Tweet/status/763802748198461440" target="_blank" class="twitter">Twitter Announcement</a><br>
-						<a href="https://www.youtube.com/watch?v=D9dYmt60T58" target="_blank" class="youtube">YouTube Announcement</a><br>
-						<a href="https://www.twitch.tv/videos/83245657" target="_blank" class="twitchfaded">RP Session</a><br>
+						<a href="https://www.youtube.com/watch?v=D9dYmt60T58" target="_blank" class="youtube">YouTube Announcement</a><br><br>
+						<a href="https://www.twitch.tv/videos/83245657" target="_blank" class="twitch">RP Session</a><br>
 						<a href="https://www.twitch.tv/videos/83660928" target="_blank" class="twitch">Full Episode</a>
 					</td>
 				</tr>
@@ -133,8 +163,8 @@
 					<td>
 						<a href="https://twitter.com/Welcome2Tweet/status/772797625422712832" target="_blank" class="twitter">Twitter Announcement</a><br>
 						<a href="http://jelloapocalypse.tumblr.com/post/150046200802/this-sunday-september-11th-at-300pm-est-well-be" target="_blank" class="tumblr">Tumblr Announcement</a><br>
-						<a href="https://www.youtube.com/watch?v=QeVg501zieQ" target="_blank" class="youtube">YouTube Announcement</a><br>
-						<a href="https://www.twitch.tv/videos/88064069" target="_blank" class="twitchfaded">RP Session</a><br>
+						<a href="https://www.youtube.com/watch?v=QeVg501zieQ" target="_blank" class="youtube">YouTube Announcement</a><br><br>
+						<a href="https://www.twitch.tv/videos/88064069" target="_blank" class="twitch">RP Session</a><br>
 						<a href="https://www.twitch.tv/videos/88962563" target="_blank" class="twitch">Full Episode</a>
 					</td>
 				</tr>
@@ -154,8 +184,8 @@
 					</td>
 					<td>
 						<a href="https://twitter.com/Welcome2Tweet/status/821807755132542978" target="_blank" class="twitter">Twitter Announcement</a><br>
-						<a href="https://www.youtube.com/watch?v=mCRlwhQceBo" target="_blank" class="youtube">YouTube Announcement</a><br>
-						<a href="https://www.twitch.tv/videos/114159581" target="_blank" class="twitchfaded">RP Session</a><br>
+						<a href="https://www.youtube.com/watch?v=mCRlwhQceBo" target="_blank" class="youtube">YouTube Announcement</a><br><br>
+						<a href="https://www.twitch.tv/videos/114159581" target="_blank" class="twitch">RP Session</a><br>
 						<a href="https://www.twitch.tv/videos/116427644" target="_blank" class="twitch">Full Episode</a>
 					</td>
 				</tr>
@@ -175,8 +205,8 @@
 					</td>
 					<td>
 						<a href="https://twitter.com/Welcome2Tweet/status/869629642508038146" target="_blank" class="twitter">Twitter Announcement</a><br>
-						<a href="https://www.youtube.com/watch?v=ea6Enop4jRs" target="_blank" class="youtube">YouTube Announcement</a><br>
-						<a href="https://www.twitch.tv/videos/140219766" target="_blank" class="twitchfaded">RP Session</a><br>
+						<a href="https://www.youtube.com/watch?v=ea6Enop4jRs" target="_blank" class="youtube">YouTube Announcement</a><br><br>
+						<a href="https://www.twitch.tv/videos/140219766" target="_blank" class="twitch">RP Session</a><br>
 						<a href="https://www.twitch.tv/videos/149134027" target="_blank" class="twitch">Full Episode</a>
 					</td>
 				</tr>
@@ -197,7 +227,7 @@
 					<td>
 						<a href="https://twitter.com/Welcome2Tweet/status/878733047465684992" target="_blank" class="twitter">Twitter Announcement</a><br>
 						<a href="http://jelloapocalypse.tumblr.com/post/162247812817/chulacabra-anime-campaign-today-twenty-minutes" target="_blank" class="tumblr">Tumblr Announcement</a><br>
-						<a href="https://www.youtube.com/watch?v=j9ng2ZkbFuM" target="_blank" class="youtube">YouTube Announcement</a><br>
+						<a href="https://www.youtube.com/watch?v=j9ng2ZkbFuM" target="_blank" class="youtube">YouTube Announcement</a><br><br>
 						<a href="https://www.twitch.tv/videos/154450871" target="_blank" class="twitch">Full Episode</a>
 					</td>
 				</tr>
@@ -217,7 +247,7 @@
 					<td>
 						<a href="https://twitter.com/Welcome2Tweet/status/921774745569374208" target="_blank" class="twitter">Twitter Announcement</a><br>
 						<a href="http://jelloapocalypse.tumblr.com/post/166642548202/anime-campaigns-penultimate-episode-is-starting" target="_blank" class="tumblr">Tumblr Announcement</a><br>
-						<a href="https://www.youtube.com/watch?v=0S_BZNOX1aE" target="_blank" class="youtube">YouTube Announcement</a><br>
+						<a href="https://www.youtube.com/watch?v=0S_BZNOX1aE" target="_blank" class="youtube">YouTube Announcement</a><br><br>
 						<a href="https://www.twitch.tv/videos/184167062" target="_blank" class="twitch">Full Episode</a>
 					</td>
 				</tr>
@@ -237,14 +267,14 @@
 					</td>
 					<td>
 						<a href="https://twitter.com/Welcome2Tweet/status/948655008991588360" target="_blank" class="twitter">Twitter Announcement</a><br>
-						<a href="https://www.youtube.com/watch?v=Me9bF8aclGs" target="_blank" class="youtube">YouTube Announcement</a><br>
+						<a href="https://www.youtube.com/watch?v=Me9bF8aclGs" target="_blank" class="youtube">YouTube Announcement</a><br><br>
 						<a href="https://www.twitch.tv/videos/216173176" target="_blank" class="twitch">Full Episode</a><br>
-						<a href="https://www.twitch.tv/videos/216461714" target="_blank" class="twitchfaded">Breakdown Stream</a>
+						<a href="https://www.twitch.tv/videos/216461714" target="_blank" class="twitch">Breakdown Stream</a>
 					</td>
 				</tr>
 			</table>
 		</div>
-		<div>
+		<div id="fillers">
 			<h2>Filler Episodes</h2>
 			<table>
 				<tr>
@@ -265,7 +295,7 @@
 						<a href="https://www.youtube.com/user/3rdWheelie" target="_blank">Jay</a>
 					</td>
 					<td>
-						<a href="https://www.twitch.tv/warpedlamp/v/94218233" target="_blank" class="twitchfaded">RP Session</a><br>
+						<a href="https://www.twitch.tv/warpedlamp/v/94218233" target="_blank" class="twitch">RP Session</a><br>
 						<a href="https://www.twitch.tv/warpedlamp/v/95444207" target="_blank" class="twitch">Full Episode</a>
 					</td>
 				</tr>
@@ -283,12 +313,30 @@
 						<a href="https://www.youtube.com/user/JelloApocalypse" target="_blank">JelloApocalypse</a>
 					</td>
 					<td>
-						<a href="https://www.twitch.tv/warpedlamp/v/97534141" target="_blank" class="twitchfaded">RP Session Part 1</a><br>
-						<a href="https://www.twitch.tv/warpedlamp/v/97534325" target="_blank" class="twitchfaded">RP Session Part 2</a><br>
+						<a href="https://www.twitch.tv/warpedlamp/v/97534141" target="_blank" class="twitch">RP Session Part 1</a><br>
+						<a href="https://www.twitch.tv/warpedlamp/v/97534325" target="_blank" class="twitch">RP Session Part 2</a><br>
 						(The full episode was lost to the whims of the Twitch Gods, but will forever remain in our hearts.)
 					</td>
 				</tr>
 			</table>
+		</div>
+		<div id="links">
+			<h2>External Links</h2>
+			<ul>
+				<li><a href="https://docs.google.com/document/d/1FDjPzvwzjypF0LUFjHpHELCMycIL7NA2g5BFPlEdYTo" target="_blank">How To Play Anime Campaign</a></li>
+				<li><a href="https://sta.sh/0coqacdkze6" target="_blank">Character Sheet (Unofficial)</a></li><br>
+				<li><a href="https://anime-campaign.wikia.com/wiki/Anime_Campaign_Wikia" target="_blank">Anime Campaign Wiki</a></li>
+				<li><a href="https://surprise-round.fandom.com/wiki/Surprise_Round_Wiki" target="_blank">Surprise Round Wiki</a></li>
+				<li><a href="https://tvtropes.org/pmwiki/pmwiki.php/Roleplay/AnimeCampaign" target="_blank">Anime Campaign on TV Tropes</a></li>
+				<li><a href="https://arklandscapelands.tumblr.com" target="_blank">The Official Anime Campaign Fan Content Archive</a></li><br>
+				<li><a href="https://drive.google.com/drive/folders/1M9-Yr8L-cXoiNort9hemj8IGCwpWL1kj" target="_blank">Character Icons and Assets</a> (short url: <a href="http://acicons.tk" target="_blank">acicons.tk</a>)</li>
+				<li><a href="https://docs.google.com/spreadsheets/d/1pusrw5N_nbeibm4oVJAENTQ7Ws1JQOatar866FVTJeU" target="_blank">All Dice Rolls in Anime Campaign</a></li>
+				<li><a href="https://docs.google.com/document/d/15pC1ocyVrDhl8UKU4FDOcB4DrbqhOe1vtkIgnOdc9B8" target="_blank">Anime Campaign Music Archive</a></li><br>
+				<li><a href="https://discord.gg/J7drUP6" target="_blank">Surprise Round Discord Server</a></li>
+				<li><a href="https://discord.gg/wMjK8Jr" target="_blank">Epithet Erased Discord Server (Unofficial)</a></li><br>
+				<li><a href="https://docs.google.com/document/d/1ilED-AdKiuCx7V5WoqS5L_k6NojdspAGuoUTb46nDkQ" target="_blank">Anime Campaign Characters as Pokémon Trainers</a></li>
+				<!--<li><a href="https://docs.google.com/document/d/1fIjSXGWJ4N6YbRB69EH0UU-YWU4Ga1xcZiEOZKP6ifk" target="_blank">Characters as Fire Emblem Characters</a></li>-->
+			</ul>
 		</div>
 		<div><p>
 			Anime Campaign was created by <a href="https://www.youtube.com/user/JelloApocalypse" target="_blank">JelloApocalypse</a><br>
