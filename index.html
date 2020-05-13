@@ -1,7 +1,36 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 	<head>
 		<title>Diefonk</title>
-		<meta http-equiv="refresh" content="0; URL='c/onsole'"/>
+		<meta charset="utf-8">
+		<meta name="description" content="Diefonk makes games and stuff">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+		<script src="about.js"></script>
+		<script>
+			function showAbout() {
+				alert("Diefonk " + about[Math.floor(Math.random() * about.length)]);
+			}
+		</script>
 	</head>
+	<body>
+		<h1>Welcome to the magical worlds of</h1>
+		<img src="diefonk.png"><br><br>
+		<noscript>
+			<style>
+				#about { display: none; }
+			</style>
+		</noscript>
+		<h1>
+			<span id="about"><a href="#" onclick="showAbout()">About</a><br><br></span>
+			Follow me on
+			<a href="https://blog.diefonk.net/" target="_blank">Tumblr</a> or
+			<a href="https://twitter.com/Diefonk" target="_blank">Twitter</a><br><br>
+			Play my games on
+			<a href="https://diefonk.itch.io/" target="_blank">itch.io</a><br><br>
+			Steal my code on
+			<a href="https://github.com/Diefonk" target="_blank">GitHub</a>
+		</h1>
+	</body>
 </html>
