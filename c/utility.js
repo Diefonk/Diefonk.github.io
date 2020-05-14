@@ -2,6 +2,7 @@ var prompt;
 var currentDirectory;
 var io = {};
 var commands = {};
+var argumentCommands = {};
 var commandList = [];
 
 function init() {
@@ -22,13 +23,19 @@ function handleInput(aEvent) {
 		io.input.value = "";
 
 		if (input !== "") {
-			let spaceIndex = input.indexOf(" ");
-			let command = input;
-			if (spaceIndex > 0) {
-				command = input.substring(0, spaceIndex);
-			}
-			if (!(command in commands && commands[command](input))) {
-				print("Command not found\nType 'help' for a list of commands");
+			if (input in commands) {
+				commands[input]();
+			} else {
+				let spaceIndex = input.indexOf(" ");
+				let command = input;
+				if (spaceIndex > 0) {
+					command = input.substring(0, spaceIndex);
+				}
+				if (command in argumentCommands) {
+					argumentCommands[command](input);
+				} else {
+					print("Command not found\nType 'help' for a list of commands");
+				}
 			}
 		}
 
@@ -38,6 +45,13 @@ function handleInput(aEvent) {
 
 function createCommand(aName, aDescription, aFunction) {
 	commands[aName] = aFunction;
+	if (aDescription) {
+		commandList.push(aName + " - " + aDescription);
+	}
+}
+
+function createArgumentCommand(aName, aDescription, aFunction) {
+	argumentCommands[aName] = aFunction;
 	if (aDescription) {
 		commandList.push(aName + " - " + aDescription);
 	}
