@@ -73,8 +73,9 @@ function windowResized() {
 }
 
 function mousePressed() {
-	if (mouseX < 0 || mouseX > width || mouseY < 0 || mouseY > height ||
-		newVillainTime > 0 || flyTime > 0) {
+	if (mouseX < 0 || mouseX > width || mouseY < 0 || mouseY > height) {
+		return true;
+	} else if (newVillainTime > 0 || flyTime > 0) {
 		return false;
 	}
 	document.getElementById("punch").play();
@@ -83,6 +84,7 @@ function mousePressed() {
 	}
 	punchTime = 1;
 	flyTime = 1;
+	return false;
 }
 
 function newVillain() {
