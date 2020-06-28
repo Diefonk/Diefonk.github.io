@@ -20,6 +20,9 @@ body {
 .inner img, .inner div {
 	width: 100%;
 }
+canvas {
+	cursor: pointer;
+}
 footer {
 	max-width: 950px;
 	margin: auto;
