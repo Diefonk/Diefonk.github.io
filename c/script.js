@@ -16,6 +16,7 @@ webstuff.addFile("../w/happybirthday", "happybirthday.html");
 webstuff.addFile("../w/texttoscrabblevalue", "texttoscrabblevalue.html");
 webstuff.addFile("../w/tournament", "tournament.html");
 webstuff.addFile("../w/hs10yearsago", "hs10yearsago.html");
+webstuff.addFile("../w/jadestuck", "jadestuck.html");
 webstuff.makeList();
 
 var other = new Directory("other");
@@ -37,7 +38,7 @@ currentDirectory.addDirectory(other);
 currentDirectory.makeList();
 
 //commands
-createCommand("about", "returns some information about Diefonk", aInput => {
+createCommand("about", "returns some information about Diefonk", () => {
 	print("Diefonk " + about[random(about.length)]);
 });
 
@@ -56,7 +57,7 @@ createArgumentCommand("cd", "changes directory to specified directory", aInput =
 	}
 });
 
-createCommand("ls", "lists directories and files in current directory", aInput => {
+createCommand("ls", "lists directories and files in current directory", () => {
 	print(currentDirectory.getList());
 });
 
@@ -76,31 +77,31 @@ createArgumentCommand("open", "opens the specified file", aInput => {
 	}
 });
 
-createCommand("clear", "clears the console", aInput => {
+createCommand("clear", "clears the console", () => {
 	location.reload();
 });
 
-createCommand("xyzzy", null, aInput => {
+createCommand("xyzzy", null, () => {
 	print("Nothing happens");
 });
 
-createCommand("make me a sandwich", null, aInput => {
+createCommand("make me a sandwich", null, () => {
 	print("What? Make it yourself.");
 });
 
-createCommand("sudo make me a sandwich", null, aInput => {
+createCommand("sudo make me a sandwich", null, () => {
 	print("Okay.");
 });
 
-createCommand("send nudes", null, aInput => {
+createCommand("send nudes", null, () => {
 	print("No.");
 });
 
-createCommand("send noots", null, aInput => {
+createCommand("send noots", null, () => {
 	print("NOOT NOOT");
 });
 
-createCommand("help", "returns this list", aInput => {
+createCommand("help", "returns this list", () => {
 	for (let index = 0; index < commandList.length; index++) {
 		print(commandList[index]);
 	}
