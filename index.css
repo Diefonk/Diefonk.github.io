@@ -1,0 +1,15 @@
+body {
+	background-color: #66cdaa;
+}
+h2 {
+	color: #212121;
+}
+a {
+	color: #cd6689;
+	border-color: #cd6689;
+}
+a:hover, .current {
+	color: #66cdaa;
+	background-color: #cd6689;
+	border-color: #cd6689;
+}
