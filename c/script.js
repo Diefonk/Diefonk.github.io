@@ -9,20 +9,13 @@ games.addFile("https://diefonk.itch.io/beast-city-dreamers", "beastcitydreamers.
 games.addFile("https://diefonk.itch.io/concern", "growingconcern.cs");
 games.makeList();
 
-var webstuff = new Directory("webstuff");
-webstuff.addFile("../w/animecampaign", "animecampaign.html");
-webstuff.addFile("../w/doesmyfandomhavedrama", "doesmyfandomhavedrama.html");
-webstuff.addFile("../w/happybirthday", "happybirthday.html");
-webstuff.addFile("../w/texttoscrabblevalue", "texttoscrabblevalue.html");
-webstuff.addFile("../w/tournament", "tournament.html");
-webstuff.addFile("../w/hs10yearsago", "hs10yearsago.html");
-webstuff.addFile("../jadestuck", "jadestuck.html");
-webstuff.makeList();
-
 var other = new Directory("other");
 other.addFile("https://github.com/Diefonk/processing-projects", "processingprojects.pde");
 other.addFile("https://github.com/Diefonk/baebot", "baebot.js");
 other.addFile("https://github.com/Diefonk/console-website", "consolewebsite.js");
+other.addFile("../w/animecampaign", "animecampaign.html");
+other.addFile("../w/hs10yearsago", "hs10yearsago.html");
+other.addFile("../jadestuck", "jadestuck.html");
 other.makeList();
 
 currentDirectory = new Directory("index");
@@ -33,7 +26,6 @@ currentDirectory.addFile("https://diefonk.itch.io/", "itch.io.url");
 currentDirectory.addFile("https://github.com/Diefonk", "github.url");
 currentDirectory.addFile("https://soundcloud.com/diefonk", "soundcloud.url");
 currentDirectory.addDirectory(games);
-currentDirectory.addDirectory(webstuff);
 currentDirectory.addDirectory(other);
 currentDirectory.makeList();
 
