@@ -7,6 +7,7 @@ games.addFile("https://diefonk.itch.io/potato-simulator-2014-remix", "potatosimu
 games.addFile("https://diefonk.itch.io/9in1", "9in1.js");
 games.addFile("https://diefonk.itch.io/beast-city-dreamers", "beastcitydreamers.bitsy");
 games.addFile("https://diefonk.itch.io/concern", "growingconcern.cs");
+games.addFile("https://diefonk.itch.io/recycle", "recycleecho.cs");
 games.makeList();
 
 var other = new Directory("other");
@@ -30,10 +31,6 @@ currentDirectory.addDirectory(other);
 currentDirectory.makeList();
 
 //commands
-createCommand("about", "returns some information about Diefonk", () => {
-	print("Diefonk " + about[random(about.length)]);
-});
-
 createArgumentCommand("cd", "changes directory to specified directory", aInput => {
 	if (aInput.length < 4) {
 		print("No directory specified");
