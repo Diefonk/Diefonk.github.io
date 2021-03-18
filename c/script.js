@@ -16,7 +16,7 @@ webstuff.addFile("../w/happybirthday", "happybirthday.html");
 webstuff.addFile("../w/texttoscrabblevalue", "texttoscrabblevalue.html");
 webstuff.addFile("../w/tournament", "tournament.html");
 webstuff.addFile("../w/hs10yearsago", "hs10yearsago.html");
-webstuff.addFile("../w/jadestuck", "jadestuck.html");
+webstuff.addFile("../jadestuck", "jadestuck.html");
 webstuff.makeList();
 
 var other = new Directory("other");
