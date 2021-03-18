@@ -15,7 +15,7 @@ other.addFile("https://github.com/Diefonk/processing-projects", "processingproje
 other.addFile("https://github.com/Diefonk/baebot", "baebot.js");
 other.addFile("https://github.com/Diefonk/console-website", "consolewebsite.js");
 other.addFile("../w/animecampaign", "animecampaign.html");
-other.addFile("../w/hs10yearsago", "hs10yearsago.html");
+other.addFile("../hsrewind", "hsrewind.html");
 other.addFile("../jadestuck", "jadestuck.html");
 other.makeList();
 
