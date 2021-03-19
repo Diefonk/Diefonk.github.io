@@ -15,9 +15,20 @@ other.addFile("https://github.com/Diefonk/processing-projects", "processingproje
 other.addFile("https://github.com/Diefonk/baebot", "baebot.js");
 other.addFile("https://github.com/Diefonk/console-website", "consolewebsite.js");
 other.addFile("../w/animecampaign", "animecampaign.html");
-other.addFile("../hsrewind", "hsrewind.html");
+other.addFile("../hsrewind", "hsrewind.js");
 other.addFile("../jadestuck", "jadestuck.html");
 other.makeList();
+
+var lists = new Directory("lists");
+lists.addFile("https://www.imdb.com/list/ls090150004/", "movies.imdb");
+lists.addFile("https://www.imdb.com/list/ls081594137/", "series.imdb");
+lists.addFile("https://myanimelist.net/animelist/Diefonk", "anime.mal");
+lists.addFile("https://myanimelist.net/mangalist/Diefonk", "manga.mal");
+lists.addFile("https://www.goodreads.com/review/list/120037719?shelf=read", "books+comics.gr");
+lists.addFile("https://itch.io/c/846223/have-playedread", "games+stories.itch.io");
+lists.addFile("https://steamcommunity.com/id/diefonk/games/", "games.steam");
+lists.addFile("https://archiveofourown.org/users/Diefonk/bookmarks", "fanfiction.ao3");
+lists.makeList();
 
 currentDirectory = new Directory("index");
 currentDirectory.addFile("https://twitter.com/Diefonk", "twitter.url");
@@ -28,6 +39,7 @@ currentDirectory.addFile("https://github.com/Diefonk", "github.url");
 currentDirectory.addFile("https://soundcloud.com/diefonk", "soundcloud.url");
 currentDirectory.addDirectory(games);
 currentDirectory.addDirectory(other);
+currentDirectory.addDirectory(lists);
 currentDirectory.makeList();
 
 //commands
