@@ -14,7 +14,7 @@ var other = new Directory("other");
 other.addFile("https://github.com/Diefonk/processing-projects", "processingprojects.pde");
 other.addFile("https://github.com/Diefonk/baebot", "baebot.js");
 other.addFile("https://github.com/Diefonk/console-website", "consolewebsite.js");
-other.addFile("../w/animecampaign", "animecampaign.html");
+other.addFile("https://epithet.glitch.me/", "epithet.html");
 other.addFile("../hsrewind", "hsrewind.js");
 other.addFile("../jadestuck", "jadestuck.html");
 other.makeList();
