@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: none;
+	outline: none;
+}
+body {
+	max-width: 800px;
+	margin: auto;
+	padding: 1em;
+	background-color: #66cdaa;
+}
+h1, h2, h3, p {
+	font-family: "Della Respira", serif;
+	line-height: 1.5em;
+	color: #000;
+}
+h1 {
+	font-size: 2em;
+	text-align: center;
+}
+h2 {
+	font-size: 1.5em;
+	text-align: left;
+}
+h3 {
+	font-size: 1.5em;
+	text-align: center;
+}
+p {
+	font-size: 1em;
+	text-align: left;
+}
+a {
+	text-decoration: underline;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	color: #cd6689;
+}
+a:hover {
+	color: #66cdaa;
+	background-color: #cd6689;
+}
+img {
+	width: 100%;
+	filter: brightness(0);
+	image-rendering: pixelated;
+}
+hr {
+	border: 1px solid #000;
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #000;
+	}
+	h1, h2, h3, p {
+		color: #66cdaa;
+	}
+	a:hover {
+		color: #000;
+	}
+	img {
+		filter: brightness(1);
+	}
+	hr {
+		border-color: #66cdaa;
+	}
+}
