@@ -37,6 +37,7 @@ currentDirectory.addFile("https://blog.diefonk.net/", "tumblr.url");
 currentDirectory.addFile("https://diefonk.itch.io/", "itch.io.url");
 currentDirectory.addFile("https://github.com/Diefonk", "github.url");
 currentDirectory.addFile("https://soundcloud.com/diefonk", "soundcloud.url");
+currentDirectory.addFile("https://imgur.com/user/Diefonk", "imgur.url");
 currentDirectory.addDirectory(games);
 currentDirectory.addDirectory(other);
 currentDirectory.addDirectory(lists);
