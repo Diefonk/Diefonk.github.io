@@ -1,0 +1,23 @@
+<rss version="2.0">
+	<channel>
+		<title>Diefonk</title>
+		<link>https://diefonk.net</link>
+		<description>Diefonk makes games and stuff</description>
+
+		<item>
+			<title>re:CyCle-EChO</title>
+			<link>https://diefonk.itch.io/recycle</link>
+			<description>First-person recycler set in the distant future of 2021.</description>
+		</item>
+		<item>
+			<title>Jadestuck</title>
+			<link>https://diefonk.net/jadestuck</link>
+			<description>A tale about a girl who is tired of being nice. (Homestuck fancomic.)</description>
+		</item>
+		<item>
+			<title>Growing Concern</title>
+			<link>https://diefonk.itch.io/concern</link>
+			<description>Play as a witch who grows plants and brews potions.</description>
+		</item>
+	</channel>
+</rss>
