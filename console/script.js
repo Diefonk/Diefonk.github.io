@@ -43,6 +43,7 @@ currentDirectory.addFile("https://blog.diefonk.net/", "tumblr.url");
 currentDirectory.addFile("https://diefonk.itch.io/", "itch.io.url");
 currentDirectory.addFile("https://github.com/Diefonk", "github.url");
 currentDirectory.addFile("https://soundcloud.com/diefonk", "soundcloud.url");
+currentDirectory.addFile("../rss.xml", "rss.xml");
 currentDirectory.addDirectory(games);
 currentDirectory.addDirectory(images);
 currentDirectory.addDirectory(other);
