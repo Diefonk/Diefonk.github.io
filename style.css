@@ -47,6 +47,7 @@ img {
 	width: 100%;
 	filter: brightness(0);
 	image-rendering: pixelated;
+	image-rendering: crisp-edges;
 }
 hr {
 	border: 1px solid #000;
