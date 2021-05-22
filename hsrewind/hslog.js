@@ -1,5 +1,1845 @@
 const log = [
 	{
+		year: "2007",
+		month: "06",
+		day: "03",
+		text: "a Jailbreak update",
+		link: "www.homestuck.com/jailbreak/1",
+		linkText: "Jailbreak p.1-5"
+	},
+	{
+		year: "2007",
+		month: "06",
+		day: "04",
+		text: "a Jailbreak update",
+		link: "www.homestuck.com/jailbreak/7",
+		linkText: "Jailbreak p.7-135"
+	},
+	{
+		id: 1,
+		year: "2007",
+		month: "06",
+		day: "12",
+		first: "1",
+		last: "1"
+	},
+	{
+		id: 1,
+		year: "2007",
+		month: "06",
+		day: "17",
+		first: "2",
+		last: "8"
+	},
+	{
+		id: 1,
+		year: "2007",
+		month: "06",
+		day: "18",
+		first: "9",
+		last: "13"
+	},
+	{
+		id: 1,
+		year: "2007",
+		month: "06",
+		day: "21",
+		first: "14",
+		last: "20"
+	},
+	{
+		id: 1,
+		year: "2007",
+		month: "06",
+		day: "22",
+		first: "21",
+		last: "30"
+	},
+	{
+		id: 1,
+		year: "2007",
+		month: "06",
+		day: "27",
+		first: "31",
+		last: "34"
+	},
+	{
+		id: 1,
+		year: "2007",
+		month: "06",
+		day: "28",
+		first: "35",
+		last: "39"
+	},
+	{
+		id: 1,
+		year: "2007",
+		month: "07",
+		day: "05",
+		first: "40",
+		last: "47"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "10",
+		first: "1",
+		last: "12"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "11",
+		first: "13",
+		last: "30"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "12",
+		first: "31",
+		last: "41"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "13",
+		first: "42",
+		last: "47"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "14",
+		first: "48",
+		last: "53"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "15",
+		first: "54",
+		last: "65"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "16",
+		first: "66",
+		last: "77"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "17",
+		first: "78",
+		last: "84"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "18",
+		first: "85",
+		last: "90"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "19",
+		first: "91",
+		last: "99"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "20",
+		first: "100",
+		last: "105"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "21",
+		first: "106",
+		last: "113"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "22",
+		first: "114",
+		last: "118"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "24",
+		first: "119",
+		last: "121"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "25",
+		first: "122",
+		last: "129"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "26",
+		first: "130",
+		last: "133"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "28",
+		first: "134",
+		last: "136"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "03",
+		day: "30",
+		first: "137",
+		last: "147"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "01",
+		first: "148",
+		last: "157"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "02",
+		first: "158",
+		last: "167"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "04",
+		first: "168",
+		last: "175"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "05",
+		first: "176",
+		last: "181"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "06",
+		first: "182",
+		last: "187"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "07",
+		first: "188",
+		last: "196"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "08",
+		first: "197",
+		last: "207"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "09",
+		first: "208",
+		last: "216"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "10",
+		first: "217",
+		last: "223"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "12",
+		first: "224",
+		last: "229"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "14",
+		first: "230",
+		last: "234"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "20",
+		first: "235",
+		last: "244"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "22",
+		first: "245",
+		last: "249"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "23",
+		first: "250",
+		last: "262"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "24",
+		first: "263",
+		last: "274"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "26",
+		first: "275",
+		last: "283"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "04",
+		day: "28",
+		first: "284",
+		last: "290"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "05",
+		day: "08",
+		first: "291",
+		last: "298"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "05",
+		day: "09",
+		first: "299",
+		last: "303"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "05",
+		day: "12",
+		first: "304",
+		last: "306"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "05",
+		day: "14",
+		first: "307",
+		last: "317"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "05",
+		day: "15",
+		first: "318",
+		last: "321"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "05",
+		day: "16",
+		first: "322",
+		last: "330"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "05",
+		day: "17",
+		first: "331",
+		last: "338"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "05",
+		day: "19",
+		first: "339",
+		last: "348"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "05",
+		day: "20",
+		first: "349",
+		last: "373"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "05",
+		day: "21",
+		first: "374",
+		last: "382"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "04",
+		first: "383",
+		last: "386"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "05",
+		first: "387",
+		last: "393"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "06",
+		first: "394",
+		last: "399"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "07",
+		first: "400",
+		last: "401"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "08",
+		first: "402",
+		last: "408"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "11",
+		first: "409",
+		last: "416"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "13",
+		first: "417",
+		last: "422"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "15",
+		first: "423",
+		last: "430"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "16",
+		first: "431",
+		last: "440"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "18",
+		first: "441",
+		last: "448"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "19",
+		first: "449",
+		last: "454"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "21",
+		first: "455",
+		last: "464"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "22",
+		first: "465",
+		last: "471"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "23",
+		first: "472",
+		last: "481"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "06",
+		day: "29",
+		first: "482",
+		last: "489"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "02",
+		first: "490",
+		last: "496"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "05",
+		first: "497",
+		last: "505"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "07",
+		first: "506",
+		last: "520"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "12",
+		first: "521",
+		last: "528"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "13",
+		first: "529",
+		last: "532"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "21",
+		first: "533",
+		last: "546"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "23",
+		first: "547",
+		last: "549"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "24",
+		first: "550",
+		last: "562"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "25",
+		first: "563",
+		last: "569"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "28",
+		first: "570",
+		last: "575"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "07",
+		day: "30",
+		first: "576",
+		last: "597"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "13",
+		first: "598",
+		last: "604"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "14",
+		first: "605",
+		last: "616"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "16",
+		first: "617",
+		last: "626"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "18",
+		first: "627",
+		last: "643"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "19",
+		first: "644",
+		last: "656"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "21",
+		first: "657",
+		last: "666"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "23",
+		first: "667",
+		last: "677"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "26",
+		first: "678",
+		last: "690"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "27",
+		first: "691",
+		last: "694"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "28",
+		first: "695",
+		last: "699"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "30",
+		first: "700",
+		last: "711"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "08",
+		day: "31",
+		first: "712",
+		last: "722"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "01",
+		first: "723",
+		last: "735"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "03",
+		first: "736",
+		last: "750"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "05",
+		first: "751",
+		last: "759"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "07",
+		first: "760",
+		last: "773"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "08",
+		first: "775",
+		last: "780"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "10",
+		first: "781",
+		last: "787"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "11",
+		first: "788",
+		last: "795"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "13",
+		first: "796",
+		last: "799"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "15",
+		first: "800",
+		last: "811"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "17",
+		first: "812",
+		last: "812"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "18",
+		first: "813",
+		last: "830"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "20",
+		first: "831",
+		last: "841"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "22",
+		first: "842",
+		last: "848"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "26",
+		first: "849",
+		last: "856"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "28",
+		first: "857",
+		last: "864"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "09",
+		day: "29",
+		first: "865",
+		last: "877"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "01",
+		first: "878",
+		last: "886"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "02",
+		first: "887",
+		last: "899"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "03",
+		first: "900",
+		last: "906"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "04",
+		first: "907",
+		last: "916"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "07",
+		first: "917",
+		last: "926"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "09",
+		first: "927",
+		last: "933"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "10",
+		first: "934",
+		last: "937"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "11",
+		first: "938",
+		last: "945"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "12",
+		first: "946",
+		last: "951"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "14",
+		first: "952",
+		last: "962"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "15",
+		first: "963",
+		last: "964"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "16",
+		first: "965",
+		last: "973"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "17",
+		first: "974",
+		last: "974"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "19",
+		first: "975",
+		last: "988"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "21",
+		first: "989",
+		last: "995"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "22",
+		first: "996",
+		last: "1003"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "24",
+		first: "1004",
+		last: "1008"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "25",
+		first: "1009",
+		last: "1019"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "26",
+		first: "1020",
+		last: "1025"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "27",
+		first: "1026",
+		last: "1038"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "28",
+		first: "1039",
+		last: "1045"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "29",
+		first: "1046",
+		last: "1052"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "30",
+		first: "1053",
+		last: "1063"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "10",
+		day: "31",
+		first: "1064",
+		last: "1073"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "01",
+		first: "1074",
+		last: "1079"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "02",
+		first: "1080",
+		last: "1081"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "04",
+		first: "1082",
+		last: "1090"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "05",
+		first: "1091",
+		last: "1103"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "07",
+		first: "1104",
+		last: "1108"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "08",
+		first: "1109",
+		last: "1112"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "10",
+		first: "1113",
+		last: "1122"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "11",
+		first: "1123",
+		last: "1128"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "13",
+		first: "1129",
+		last: "1129"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "14",
+		first: "1130",
+		last: "1135"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "15",
+		first: "1136",
+		last: "1146"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "17",
+		first: "1147",
+		last: "1150"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "18",
+		first: "1151",
+		last: "1151"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "19",
+		first: "1152",
+		last: "1155"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "20",
+		first: "1156",
+		last: "1156"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "21",
+		first: "1157",
+		last: "1164"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "22",
+		first: "1165",
+		last: "1176"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "24",
+		first: "1177",
+		last: "1184"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "26",
+		first: "1185",
+		last: "1188"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "28",
+		first: "1189",
+		last: "1209"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "11",
+		day: "30",
+		first: "1210",
+		last: "1215"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "02",
+		first: "1216",
+		last: "1218"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "03",
+		first: "1219",
+		last: "1220"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "05",
+		first: "1221",
+		last: "1227"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "06",
+		first: "1228",
+		last: "1234"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "08",
+		first: "1235",
+		last: "1242"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "10",
+		first: "1243",
+		last: "1246"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "11",
+		first: "1247",
+		last: "1249"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "12",
+		first: "1250",
+		last: "1257"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "13",
+		first: "1258",
+		last: "1261"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "15",
+		first: "1262",
+		last: "1262"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "16",
+		first: "1263",
+		last: "1265"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "17",
+		first: "1266",
+		last: "1267"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "18",
+		first: "1268",
+		last: "1273"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "19",
+		first: "1274",
+		last: "1280"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "20",
+		first: "1281",
+		last: "1287"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "21",
+		first: "1288",
+		last: "1291"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "23",
+		first: "1292",
+		last: "1301"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "25",
+		first: "1302",
+		last: "1308"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "26",
+		first: "1309",
+		last: "1315"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "28",
+		first: "1316",
+		last: "1320"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "29",
+		first: "1321",
+		last: "1327"
+	},
+	{
+		id: 0,
+		year: "2008",
+		month: "12",
+		day: "31",
+		first: "1328",
+		last: "1331"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "01",
+		first: "1332",
+		last: "1337"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "02",
+		first: "1338",
+		last: "1341"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "03",
+		first: "1342",
+		last: "1348"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "05",
+		first: "1349",
+		last: "1357"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "07",
+		first: "1358",
+		last: "1364"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "08",
+		first: "1365",
+		last: "1370"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "16",
+		first: "1371",
+		last: "1379"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "18",
+		first: "1380",
+		last: "1385"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "20",
+		first: "1386",
+		last: "1395"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "21",
+		first: "1396",
+		last: "1398"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "22",
+		first: "1399",
+		last: "1401"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "23",
+		first: "1402",
+		last: "1408"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "25",
+		first: "1409",
+		last: "1424"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "27",
+		first: "1425",
+		last: "1432"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "29",
+		first: "1433",
+		last: "1439"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "30",
+		first: "1440",
+		last: "1443"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "01",
+		day: "31",
+		first: "1444",
+		last: "1446"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "02",
+		first: "1447",
+		last: "1449"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "03",
+		first: "1450",
+		last: "1457"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "05",
+		first: "1458",
+		last: "1459"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "07",
+		first: "1460",
+		last: "1464"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "08",
+		first: "1465",
+		last: "1475"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "10",
+		first: "1476",
+		last: "1477"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "12",
+		first: "1478",
+		last: "1478"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "13",
+		first: "1479",
+		last: "1483"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "14",
+		first: "1484",
+		last: "1488"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "15",
+		first: "1489",
+		last: "1492"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "19",
+		first: "1493",
+		last: "1494"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "21",
+		first: "1495",
+		last: "1502"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "22",
+		first: "1503",
+		last: "1510"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "23",
+		first: "1511",
+		last: "1516"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "25",
+		first: "1517",
+		last: "1521"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "02",
+		day: "27",
+		first: "1522",
+		last: "1534"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "01",
+		first: "1535",
+		last: "1538"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "02",
+		first: "1539",
+		last: "1543"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "04",
+		first: "1544",
+		last: "1553"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "05",
+		first: "1554",
+		last: "1560"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "06",
+		first: "1561",
+		last: "1568"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "07",
+		first: "1569",
+		last: "1584"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "09",
+		first: "1585",
+		last: "1604"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "10",
+		first: "1605",
+		last: "1622"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "16",
+		first: "1623",
+		last: "1629"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "18",
+		first: "1630",
+		last: "1631"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "20",
+		first: "1632",
+		last: "1632"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "23",
+		first: "1633",
+		last: "1637"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "25",
+		first: "1638",
+		last: "1643"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "26",
+		first: "1644",
+		last: "1650"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "28",
+		first: "1651",
+		last: "1655"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "03",
+		day: "30",
+		first: "1656",
+		last: "1656"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "04",
+		day: "01",
+		first: "1657",
+		last: "1661"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "04",
+		day: "02",
+		first: "1662",
+		last: "1664"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "04",
+		day: "04",
+		first: "1665",
+		last: "1669"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "04",
+		day: "05",
+		first: "1670",
+		last: "1670"
+	},
+	{
+		id: 0,
+		year: "2009",
+		month: "04",
+		day: "07",
+		first: "1671",
+		last: "1674"
+	},
+	{
 		year: "2009",
 		month: "04",
 		day: "13",
@@ -8167,5 +10007,549 @@ const log = [
 		day: "25",
 		first: "8129",
 		last: "8130"
+	},
+	{
+		id: 4,
+		year: "2017",
+		month: "09",
+		day: "14",
+		first: "1"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "04",
+		day: "13",
+		first: "833040/Hiveswap_Friendsim/",
+		title: "One"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "04",
+		day: "27",
+		first: "848020/Hiveswap_Friendsim__Volume_Two/",
+		title: "Two"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "05",
+		day: "11",
+		first: "859130/Hiveswap_Friendsim__Volume_Three/",
+		title: "Three"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "05",
+		day: "25",
+		first: "864980/Hiveswap_Friendsim__Volume_Four/",
+		title: "Four"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "06",
+		day: "09",
+		first: "878920/Hiveswap_Friendsim__Volume_Five/",
+		title: "Five"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "06",
+		day: "22",
+		first: "886930/Hiveswap_Friendsim__Volume_Six/",
+		title: "Six"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "07",
+		day: "06",
+		first: "892400/Hiveswap_Friendsim__Volume_Seven/",
+		title: "Seven"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "07",
+		day: "21",
+		first: "904580/Hiveswap_Friendsim__Volume_Eight/",
+		title: "Eight"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "08",
+		day: "04",
+		first: "913810/Hiveswap_Friendsim__Volume_Nine/",
+		title: "Nine"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "08",
+		day: "18",
+		first: "922430/Hiveswap_Friendsim__Volume_Ten/",
+		title: "Ten"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "09",
+		day: "03",
+		first: "931920/Hiveswap_Friendsim__Volume_Eleven/",
+		title: "Eleven"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "09",
+		day: "15",
+		first: "941220/Hiveswap_Friendsim__Volume_Twelve/",
+		title: "Twelve"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "09",
+		day: "29",
+		first: "950820/Hiveswap_Friendsim__Volume_Thirteen/",
+		title: "Thirteen"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "10",
+		day: "13",
+		first: "959160/Hiveswap_Friendsim__Volume_Fourteen/",
+		title: "Fourteen"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "10",
+		day: "27",
+		first: "966360/Hiveswap_Friendsim__Volume_Fifteen/",
+		title: "Fifteen"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "11",
+		day: "10",
+		first: "975560/Hiveswap_Friendsim__Volume_Sixteen/",
+		title: "Sixteen"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "12",
+		day: "01",
+		first: "986510/Hiveswap_Friendsim__Volume_Seventeen/",
+		title: "Seventeen"
+	},
+	{
+		id: 5,
+		year: "2018",
+		month: "12",
+		day: "15",
+		first: "998810/Hiveswap_Friendsim__Volume_Eighteen/",
+		title: "Eighteen"
+	},
+	{
+		year: "2019",
+		month: "04",
+		day: "13",
+		text: "a Homestuck Epilogues update",
+		link: "www.homestuck.com/epilogues/prologue",
+		linkText: "The Homestuck Epilogues: Prologue"
+	},
+	{
+		year: "2019",
+		month: "04",
+		day: "20",
+		text: "a Homestuck Epilogues update",
+		link: "www.homestuck.com/epilogues/meat/1",
+		linkText: "The Homestuck Epilogues: Meat"
+	},
+	{
+		year: "2019",
+		month: "04",
+		day: "20",
+		text: "a Homestuck Epilogues update",
+		link: "www.homestuck.com/epilogues/candy/1",
+		linkText: "The Homestuck Epilogues: Candy",
+		firstLink: "www.homestuck.com/epilogues/meat/1",
+		firstLinkText: "The Homestuck Epilogues: Meat"
+	},
+	{
+		id: 6,
+		year: "2019",
+		month: "09",
+		day: "04",
+		first: "1611648239515600745",
+		title: "1 + 2"
+	},
+	{
+		id: 6,
+		year: "2019",
+		month: "09",
+		day: "18",
+		first: "2981869155475654004",
+		title: "3"
+	},
+	{
+		id: 6,
+		year: "2019",
+		month: "10",
+		day: "02",
+		first: "1607147089546655632",
+		title: "4"
+	},
+	{
+		id: 6,
+		year: "2019",
+		month: "10",
+		day: "16",
+		first: "1584630449673602688",
+		title: "5"
+	},
+	{
+		id: 2,
+		year: "2019",
+		month: "10",
+		day: "25",
+		first: "1",
+		last: "32"
+	},
+	{
+		id: 6,
+		year: "2019",
+		month: "10",
+		day: "30",
+		first: "1619534614695459588",
+		title: "6"
+	},
+	{
+		id: 6,
+		year: "2019",
+		month: "11",
+		day: "13",
+		first: "1586884786288767866",
+		title: "7"
+	},
+	{
+		id: 2,
+		year: "2019",
+		month: "11",
+		day: "23",
+		first: "33",
+		last: "56"
+	},
+	{
+		id: 3,
+		year: "2019",
+		month: "11",
+		day: "27",
+		first: "catnapped/1",
+		title: "Catnapped, Part 1"
+	},
+	{
+		id: 6,
+		year: "2019",
+		month: "12",
+		day: "04",
+		first: "1699476680664427255",
+		title: "8"
+	},
+	{
+		id: 6,
+		year: "2019",
+		month: "12",
+		day: "20",
+		first: "1684841248940261717",
+		title: "9"
+	},
+	{
+		id: 2,
+		year: "2019",
+		month: "12",
+		day: "24",
+		first: "57",
+		last: "95"
+	},
+	{
+		id: 3,
+		year: "2019",
+		month: "12",
+		day: "25",
+		first: "catnapped/9",
+		title: "Catnapped, Part 2"
+	},
+	{
+		id: 6,
+		year: "2020",
+		month: "01",
+		day: "15",
+		first: "1682591986317091674",
+		title: "10"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "01",
+		day: "17",
+		first: "96",
+		last: "118"
+	},
+	{
+		id: 3,
+		year: "2020",
+		month: "01",
+		day: "30",
+		first: "a-treatise-on-representational-democracy/1",
+		title: "A Treatise on Representational Democracy, Part 1"
+	},
+	{
+		id: 6,
+		year: "2020",
+		month: "02",
+		day: "05",
+		first: "1719748588191707974",
+		title: "11"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "02",
+		day: "15",
+		first: "119",
+		last: "143"
+	},
+	{
+		id: 6,
+		year: "2020",
+		month: "02",
+		day: "19",
+		first: "1691602358995789516",
+		title: "12"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "02",
+		day: "24",
+		first: "144",
+		last: "144"
+	},
+	{
+		id: 3,
+		year: "2020",
+		month: "02",
+		day: "28",
+		first: "catnapped/24",
+		title: "Catnapped, Part 3"
+	},
+	{
+		id: 6,
+		year: "2020",
+		month: "03",
+		day: "04",
+		first: "1692729524326939013",
+		title: "13"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "03",
+		day: "12",
+		first: "145",
+		last: "169"
+	},
+	{
+		id: 3,
+		year: "2020",
+		month: "03",
+		day: "23",
+		first: "diamonds-dames-and-dads/1",
+		title: "Diamonds, Dames, and Dads, Part 1"
+	},
+	{
+		id: 6,
+		year: "2020",
+		month: "04",
+		day: "01",
+		first: "2080041629686243111",
+		title: "14"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "04",
+		day: "03",
+		first: "170",
+		last: "191"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "04",
+		day: "13",
+		first: "192",
+		last: "204"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "04",
+		day: "27",
+		first: "205",
+		last: "235"
+	},
+	{
+		id: 3,
+		year: "2020",
+		month: "04",
+		day: "30",
+		first: "a-threat-sensed/1",
+		title: "A Threat, Sensed"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "05",
+		day: "19",
+		first: "236",
+		last: "262"
+	},
+	{
+		id: 3,
+		year: "2020",
+		month: "05",
+		day: "30",
+		first: "the-influencers/1",
+		title: "The Influencers, Part 1"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "05",
+		day: "31",
+		first: "263",
+		last: "276"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "08",
+		day: "06",
+		first: "277",
+		last: "290"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "08",
+		day: "23",
+		first: "291",
+		last: "302"
+	},
+	{
+		id: 3,
+		year: "2020",
+		month: "08",
+		day: "27",
+		first: "diamonds-dames-and-dads/15",
+		title: "Diamonds, Dames, and Dads, Part 2"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "09",
+		day: "16",
+		first: "303",
+		last: "326"
+	},
+	{
+		id: 3,
+		year: "2020",
+		month: "09",
+		day: "28",
+		first: "the-influencers/12",
+		title: "The Influencers, Part 2"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "09",
+		day: "30",
+		first: "327",
+		last: "343"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "10",
+		day: "15",
+		first: "344",
+		last: "361"
+	},
+	{
+		id: 3,
+		year: "2020",
+		month: "10",
+		day: "28",
+		first: "diamonds-dames-and-dads/26",
+		title: "Diamonds, Dames, and Dads, Part 3"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "10",
+		day: "31",
+		first: "362",
+		last: "375"
+	},
+	{
+		id: 4,
+		year: "2020",
+		month: "11",
+		day: "25",
+		first: "2"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "11",
+		day: "29",
+		first: "376",
+		last: "393"
+	},
+	{
+		id: 3,
+		year: "2020",
+		month: "11",
+		day: "30",
+		first: "the-influencers/25",
+		title: "The Influencers, Part 3"
+	},
+	{
+		id: 3,
+		year: "2020",
+		month: "12",
+		day: "22",
+		first: "diamonds-dames-and-dads/37",
+		title: "Diamonds, Dames, and Dads, Part 4"
+	},
+	{
+		id: 2,
+		year: "2020",
+		month: "12",
+		day: "25",
+		first: "394",
+		last: "407"
 	}
 ];

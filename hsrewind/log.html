@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
 		<script src="hslog.js"></script>
-		<script src="index.js"></script>
+		<script src="log.js"></script>
 		<script src="common.js"></script>
 	</head>
 	<body onload="init()">
@@ -24,14 +24,16 @@
 		</h2>
 		<div class="outer">
 			<div class="inner">
-				<h1>
-					<span>Homestuck</span>
-					<input type="number" min="0" onchange="changeYear()">
+				<h1>ADVENTURE LOG</h1>
+				<p style="text-align:left">
+					<input type="radio" name="order" onchange="change()">
+					New to Old
+					<input type="radio" name="order" onchange="change()">
+					Old to New |
+					<input type="number" min="0" onchange="change()">
 					<span>years</span> ago
-				</h1>
-				<img src="reader.png" alt="MSPA Reader">
-				<p></p>
-				<h3></h3>
+				</p>
+				<p style="text-align:left"></p>
 			</div>
 		</div>
 		<footer>
