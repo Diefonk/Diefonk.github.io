@@ -8,13 +8,8 @@ games.addFile("https://diefonk.itch.io/9in1", "9in1.js");
 games.addFile("https://diefonk.itch.io/beast-city-dreamers", "beastcitydreamers.bitsy");
 games.addFile("https://diefonk.itch.io/concern", "growingconcern.cs");
 games.addFile("https://diefonk.itch.io/recycle", "recycleecho.cs");
+games.addFile("https://diefonk.itch.io/you-reached-avalon", "youreachedavalon.gd");
 games.makeList();
-
-var images = new Directory("images");
-images.addFile("https://imgur.com/a/D12c12S", "pixelart.png");
-images.addFile("https://imgur.com/a/qGnhfNW", "gifs.gif");
-images.addFile("https://imgur.com/a/TJOFHyw", "flipnote.gif");
-images.makeList();
 
 var other = new Directory("other");
 other.addFile("https://github.com/Diefonk/processing-projects", "processingprojects.pde");
@@ -45,7 +40,6 @@ currentDirectory.addFile("https://github.com/Diefonk", "github.url");
 currentDirectory.addFile("https://soundcloud.com/diefonk", "soundcloud.url");
 currentDirectory.addFile("../rss.xml", "rss.xml");
 currentDirectory.addDirectory(games);
-currentDirectory.addDirectory(images);
 currentDirectory.addDirectory(other);
 currentDirectory.addDirectory(lists);
 currentDirectory.makeList();
