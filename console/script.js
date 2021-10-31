@@ -9,6 +9,7 @@ games.addFile("https://diefonk.itch.io/beast-city-dreamers", "beastcitydreamers.
 games.addFile("https://diefonk.itch.io/concern", "growingconcern.cs");
 games.addFile("https://diefonk.itch.io/recycle", "recycleecho.cs");
 games.addFile("https://diefonk.itch.io/you-reached-avalon", "youreachedavalon.gd");
+games.addFile("https://diefonk.itch.io/grim-folly", "grimfolly.js");
 games.makeList();
 
 var other = new Directory("other");

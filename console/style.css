@@ -3,7 +3,7 @@ body {
 	padding: 0.5em;
 }
 p, input {
-	font-family: monospace;
+	font-family: Courier, monospace;
 	font-size: 1.5em;
 	color: #0f0;
 }
