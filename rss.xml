@@ -5,39 +5,18 @@
 		<description>Diefonk makes games and stuff</description>
 
 		<item>
+			<title>The Bagel Archive</title>
+			<link>https://diefonk.itch.io/the-bagel-archive</link>
+		</item>
+
+		<item>
 			<title>GRIM FOLLY</title>
 			<link>https://diefonk.itch.io/grim-folly</link>
-			<description>
-				<h1>GRIM FOLLY</h1>
-				<p>
-					Text-based adventure anthology.<br/>
-					<a href="https://diefonk.itch.io/grim-folly">Play on itch.io</a>
-				</p>
-			</description>
 		</item>
 
 		<item>
 			<title>You Reached Avalon</title>
 			<link>https://diefonk.itch.io/you-reached-avalon</link>
-			<description>
-				<h1>You Reached Avalon</h1>
-				<p>
-					Based on a dream I had two years ago.<br/>
-					<a href="https://diefonk.itch.io/you-reached-avalon">Download on itch.io</a>
-				</p>
-			</description>
-		</item>
-
-		<item>
-			<title>re:CyCle-EChO</title>
-			<link>https://diefonk.itch.io/recycle</link>
-			<description>
-				<h1>re:CyCle-EChO</h1>
-				<p>
-					First-person recycler set in the distant future of 2021.<br/>
-					<a href="https://diefonk.itch.io/recycle">Download on itch.io</a>
-				</p>
-			</description>
 		</item>
 	</channel>
 </rss>
