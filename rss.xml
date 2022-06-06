@@ -5,6 +5,11 @@
 		<description>Diefonk makes games and stuff</description>
 
 		<item>
+			<title>availa.blue</title>
+			<link>https://availa.blue</link>
+		</item>
+
+		<item>
 			<title>Satellite</title>
 			<link>https://diefonk.itch.io/satellite</link>
 		</item>
@@ -22,11 +27,6 @@
 		<item>
 			<title>GRIM FOLLY</title>
 			<link>https://diefonk.itch.io/grim-folly</link>
-		</item>
-
-		<item>
-			<title>You Reached Avalon</title>
-			<link>https://diefonk.itch.io/you-reached-avalon</link>
 		</item>
 	</channel>
 </rss>
