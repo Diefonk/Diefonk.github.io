@@ -7,6 +7,11 @@
 		<description>Diefonk makes games and stuff</description>
 
 		<item>
+			<title>Images by Diefonk</title>
+			<link>https://diefonk.net/images</link>
+		</item>
+
+		<item>
 			<title>I Was Reincarnated in an RPG but I Don't Want to Fight the Monsters</title>
 			<link>https://diefonk.itch.io/i-was-reincarnated-in-an-rpg-but-i-dont-want-to-fight-the-monsters</link>
 		</item>
@@ -24,11 +29,6 @@
 		<item>
 			<title>Pocket Reader</title>
 			<link>https://diefonk.itch.io/pocket-reader</link>
-		</item>
-
-		<item>
-			<title>The Bagel Archive</title>
-			<link>https://diefonk.itch.io/the-bagel-archive</link>
 		</item>
 	</channel>
 </rss>
