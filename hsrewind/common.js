@@ -7,7 +7,7 @@ function getUpdateLink(update) {
 		link += update.linkText;
 	} else if (update.id === 0) {
 		link += "www.homestuck.com/problem-sleuth/";
-		link += update.first + "' target='_blank'>Problem Sleuth pg.";
+		link += update.first + "' target='_blank'>Problem Sleuth pg. ";
 		if (update.first === update.last) {
 			link += update.first;
 		} else {
@@ -15,7 +15,7 @@ function getUpdateLink(update) {
 		}
 	} else if (update.id === 1) {
 		link += "www.homestuck.com/bard-quest/";
-		link += update.first + "' target='_blank'>Bard Quest pg.";
+		link += update.first + "' target='_blank'>Bard Quest pg. ";
 		if (update.first === update.last) {
 			link += update.first;
 		} else {
@@ -23,7 +23,7 @@ function getUpdateLink(update) {
 		}
 	} else if (update.id === 2) {
 		link += "www.homestuck2.com/story/";
-		link += update.first + "' target='_blank'>Homestuck^2 pg.";
+		link += update.first + "' target='_blank'>Homestuck^2 pg. ";
 		if (update.first === update.last) {
 			link += update.first;
 		} else {
@@ -47,7 +47,7 @@ function getUpdateLink(update) {
 		link += "Pesterquest - Volume " + update.title;
 	} else {
 		link += "www.homestuck.com/story/";
-		link += update.first + "' target='_blank'>Homestuck pg.";
+		link += update.first + "' target='_blank'>Homestuck pg. ";
 		if (update.first === update.last) {
 			link += update.first;
 		} else {

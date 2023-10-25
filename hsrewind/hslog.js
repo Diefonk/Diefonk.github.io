@@ -5,7 +5,7 @@ const log = [
 		day: "03",
 		text: "a Jailbreak update",
 		link: "www.homestuck.com/jailbreak/1",
-		linkText: "Jailbreak p.1-5"
+		linkText: "Jailbreak pg. 1-5"
 	},
 	{
 		year: "2007",
@@ -13,7 +13,7 @@ const log = [
 		day: "04",
 		text: "a Jailbreak update",
 		link: "www.homestuck.com/jailbreak/7",
-		linkText: "Jailbreak p.7-135"
+		linkText: "Jailbreak pg. 7-135"
 	},
 	{
 		id: 1,
@@ -10559,5 +10559,13 @@ const log = [
 		day: "08",
 		first: "408",
 		last: "454"
+	},
+	{
+		id: 2,
+		year: "2023",
+		month: "10",
+		day: "25",
+		first: "455",
+		last: "475"
 	}
 ];
