@@ -7,6 +7,13 @@
 		<description>Diefonk makes games and stuff</description>
 
 		<item>
+			<title>Images 2023</title>
+			<link>https://diefonk.net/images/2023</link>
+			<guid>https://diefonk.net/images/2023</guid>
+			<pubDate>01 Jan 2024 15:47 UT</pubDate>
+		</item>
+
+		<item>
 			<title>Chapter 2 of I Was Reincarnated in an RPG but I Don't Want to Fight the Monsters</title>
 			<link>https://diefonk.itch.io/i-was-reincarnated-in-an-rpg-but-i-dont-want-to-fight-the-monsters/devlog/568309/chapter-2</link>
 			<guid>https://diefonk.itch.io/i-was-reincarnated-in-an-rpg-but-i-dont-want-to-fight-the-monsters/devlog/568309/chapter-2</guid>
@@ -18,11 +25,6 @@
 			<link>https://diefonk.itch.io/doki-doki-mono</link>
 			<guid>https://diefonk.itch.io/doki-doki-mono</guid>
 			<pubDate>21 Apr 2023 18:59 UT</pubDate>
-		</item>
-
-		<item>
-			<title>Images by Diefonk</title>
-			<link>https://diefonk.net/images</link>
 		</item>
 	</channel>
 </rss>
