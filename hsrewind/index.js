@@ -152,9 +152,9 @@ function getUpdateText(update) {
 	} else if (update.id === 1) {
 		return "a Bard Quest update";
 	} else if (update.id === 2) {
-		return "a Homestuck^2 update";
+		return "a Homestuck: Beyond Canon update";
 	} else if (update.id === 3) {
-		return "a Homestuck^2 bonus update";
+		return "a HS:BC Bonus update";
 	} else if (update.id === 4) {
 		return "a HIVESWAP release";
 	} else if (update.id === 5) {

@@ -22,17 +22,17 @@ function getUpdateLink(update) {
 			link += update.first + "-" + update.last;
 		}
 	} else if (update.id === 2) {
-		link += "www.homestuck2.com/story/";
-		link += update.first + "' target='_blank'>Homestuck^2 pg. ";
+		link += "beyondcanon.com/story/";
+		link += update.first + "' target='_blank'>Homestuck: Beyond Canon pg. ";
 		if (update.first === update.last) {
 			link += update.first;
 		} else {
 			link += update.first + "-" + update.last;
 		}
 	} else if (update.id === 3) {
-		link += "www.homestuck2.com/bonus/";
+		link += "beyondcanon.com/bonus/";
 		link += update.first + "' target='_blank'>";
-		link += "HS^2 Bonus: " + update.title;
+		link += "HS:BC Bonus: " + update.title;
 	} else if (update.id === 4) {
 		link += "www.hiveswap.com/hiveswap-act-";
 		link += update.first + "' target='_blank'>";
