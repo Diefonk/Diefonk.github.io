@@ -10661,7 +10661,55 @@ const log = [
 		year: "2024",
 		month: "07",
 		day: "23",
-		first: "666",
-		last: "666"
+		link: "beyondcanon.com/story/666",
+		linkText: "Homestuck: Beyond Canon pg. 666 - Prologue/Chapter 1"
+	},
+	{
+		id: 2,
+		year: "2024",
+		month: "07",
+		day: "24",
+		link: "beyondcanon.com/story/666",
+		linkText: "Homestuck: Beyond Canon pg. 666 - Chapter 2"
+	},
+	{
+		id: 2,
+		year: "2024",
+		month: "08",
+		day: "11",
+		link: "beyondcanon.com/story/666",
+		linkText: "Homestuck: Beyond Canon pg. 666 - Chapter 3"
+	},
+	{
+		id: 2,
+		year: "2024",
+		month: "08",
+		day: "25",
+		link: "beyondcanon.com/story/666",
+		linkText: "Homestuck: Beyond Canon pg. 666 - Chapter 4"
+	},
+	{
+		id: 2,
+		year: "2024",
+		month: "09",
+		day: "14",
+		link: "beyondcanon.com/story/666",
+		linkText: "Homestuck: Beyond Canon pg. 666 - Chapter X"
+	},
+	{
+		id: 2,
+		year: "2024",
+		month: "09",
+		day: "29",
+		link: "beyondcanon.com/story/666",
+		linkText: "Homestuck: Beyond Canon pg. 666 - Chapter 6"
+	},
+	{
+		id: 2,
+		year: "2024",
+		month: "10",
+		day: "09",
+		first: "667",
+		last: "694"
 	}
 ];
