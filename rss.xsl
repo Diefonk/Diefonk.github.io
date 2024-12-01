@@ -36,6 +36,7 @@
 				<p>
 					<a href="rss.xml">RSS</a> •
 					<a href="https://diefonk.tumblr.com" target="_blank">Tumblr</a> •
+					<a href="https://bsky.app/profile/diefonk.net" target="_blank">Bluesky</a> •
 					<a href="https://twitter.com/Diefonk" target="_blank">Twitter</a> •
 					<a href="https://diefonk.itch.io/" target="_blank">itch.io</a> •
 					<a href="https://github.com/Diefonk" target="_blank">GitHub</a> •
