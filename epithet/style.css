@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #212121;
+	color: #eeeeee;
+	max-width: 800px;
+	margin: auto;
+	padding: 16px;
+}
+h1 {
+	font-family: "Bangers", sans-serif;
+	font-size: 80px;
+	text-align: center;
+	margin-bottom: 16px;
+}
+h2 {
+	font-family: "Bangers", sans-serif;
+	font-size: 32px;
+	text-align: left;
+	margin-top: 64px;
+	margin-bottom: 16px;
+}
+li {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	margin-left: 16px;
+}
+p {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+footer {
+	margin-top: 64px;
+}
+header p, footer p {
+	text-align: center;
+}
+a {
+	color: #7ec19d;
+}
