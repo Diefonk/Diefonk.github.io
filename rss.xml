@@ -8,6 +8,13 @@
 		<atom:link href="https://diefonk.net/rss.xml" rel="self" type="application/rss+xml"/>
 
 		<item>
+			<title>Deus XO</title>
+			<link>https://diefonk.itch.io/deus-xo</link>
+			<guid>https://diefonk.itch.io/deus-xo</guid>
+			<pubDate>21 Feb 2026 19:04 +0100</pubDate>
+		</item>
+
+		<item>
 			<title>Images 2025</title>
 			<link>https://diefonk.net/images/2025</link>
 			<guid>https://diefonk.net/images/2025</guid>
@@ -68,13 +75,6 @@
 			<link>https://diefonk.itch.io/i-was-reincarnated-in-an-rpg-but-i-dont-want-to-fight-the-monsters/devlog/568309/chapter-2</link>
 			<guid>https://diefonk.itch.io/i-was-reincarnated-in-an-rpg-but-i-dont-want-to-fight-the-monsters/devlog/568309/chapter-2</guid>
 			<pubDate>31 Jul 2023 19:48 +0200</pubDate>
-		</item>
-
-		<item>
-			<title>Doki Doki Mono</title>
-			<link>https://diefonk.itch.io/doki-doki-mono</link>
-			<guid>https://diefonk.itch.io/doki-doki-mono</guid>
-			<pubDate>21 Apr 2023 20:59 +0200</pubDate>
 		</item>
 	</channel>
 </rss>
