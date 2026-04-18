@@ -10182,8 +10182,7 @@ const log = [
 		text: "a Homestuck Epilogues update",
 		link: "www.homestuck.com/epilogues/candy/1",
 		linkText: "The Homestuck Epilogues: Candy",
-		firstLink: "www.homestuck.com/epilogues/meat/1",
-		firstLinkText: "The Homestuck Epilogues: Meat"
+		double: true
 	},
 	{
 		id: 6,

@@ -66,11 +66,8 @@ function init() {
 	document.getElementsByTagName("p")[0].innerHTML = text;
 
 	let link = "&gt; ";
-	if (update.firstLink) {
-		let fakeUpdate = {};
-		fakeUpdate.link = update.firstLink;
-		fakeUpdate.linkText = update.firstLinkText;
-		link += getUpdateLink(fakeUpdate);
+	if (update.double) {
+		link += getUpdateLink(log[latestUpdateIndex - 1]);
 		link += "<br>&gt; ";
 	}
 	link += getUpdateLink(update)
