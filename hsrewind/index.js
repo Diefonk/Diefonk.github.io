@@ -158,6 +158,8 @@ function getUpdateText(update) {
 		return "a Hiveswap Friendsim update";
 	} else if (update.id === 6) {
 		return "a Pesterquest update";
+	} else if (update.id === 7) {
+		return "a Jailbreak update";
 	} else {
 		return "a Homestuck update";
 	}

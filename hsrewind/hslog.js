@@ -1,19 +1,222 @@
 const log = [
 	{
-		year: "2007",
-		month: "06",
-		day: "03",
-		text: "a Jailbreak update",
-		link: "www.homestuck.com/jailbreak/1",
-		linkText: "Jailbreak pg. 1-5"
+		id: 7,
+		year: "2006",
+		month: "09",
+		day: "24",
+		first: "2",
+		last: "2"
 	},
 	{
+		id: 7,
+		year: "2006",
+		month: "09",
+		day: "25",
+		first: "3",
+		last: "29"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "09",
+		day: "26",
+		first: "30",
+		last: "31"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "09",
+		day: "27",
+		first: "32",
+		last: "33"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "09",
+		day: "28",
+		first: "34",
+		last: "37"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "10",
+		day: "03",
+		first: "38",
+		last: "44"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "10",
+		day: "12",
+		first: "45",
+		last: "45"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "10",
+		day: "13",
+		first: "46",
+		last: "53"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "10",
+		day: "15",
+		first: "54",
+		last: "61"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "10",
+		day: "16",
+		first: "62",
+		last: "68"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "10",
+		day: "26",
+		first: "69",
+		last: "73"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "10",
+		day: "26",
+		first: "79",
+		last: "82",
+		double: true
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "10",
+		day: "27",
+		first: "74",
+		last: "74"
+	},
+	{
+		id: 7,
+		year: "2006",
+		month: "10",
+		day: "27",
+		first: "83",
+		last: "83",
+		double: true
+	},
+	{
+		id: 7,
 		year: "2007",
-		month: "06",
+		month: "01",
 		day: "04",
-		text: "a Jailbreak update",
-		link: "www.homestuck.com/jailbreak/7",
-		linkText: "Jailbreak pg. 7-135"
+		first: "75",
+		last: "78"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "01",
+		day: "04",
+		first: "84",
+		last: "86",
+		double: true
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "01",
+		day: "10",
+		first: "87",
+		last: "87"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "01",
+		day: "16",
+		first: "88",
+		last: "93"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "01",
+		day: "17",
+		first: "94",
+		last: "96"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "01",
+		day: "22",
+		first: "97",
+		last: "104"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "01",
+		day: "23",
+		first: "105",
+		last: "105"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "02",
+		day: "05",
+		first: "106",
+		last: "107"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "02",
+		day: "19",
+		first: "108",
+		last: "108"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "02",
+		day: "20",
+		first: "109",
+		last: "120"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "02",
+		day: "21",
+		first: "121",
+		last: "122"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "02",
+		day: "22",
+		first: "123",
+		last: "124"
+	},
+	{
+		id: 7,
+		year: "2007",
+		month: "02",
+		day: "23",
+		first: "125",
+		last: "136"
 	},
 	{
 		id: 1,

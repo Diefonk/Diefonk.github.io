@@ -45,6 +45,14 @@ function getUpdateLink(update) {
 		link += "store.steampowered.com/news/app/1144030/view/";
 		link += update.first + "' target='_blank'>";
 		link += "Pesterquest - Volume " + update.title;
+	} else if (update.id === 7) {
+		link += "www.homestuck.com/jailbreak/";
+		link += padPage(update.first) + "' target='_blank'>Jailbreak pg. ";
+		if (update.first === update.last) {
+			link += padPage(update.first);
+		} else {
+			link += padPage(update.first) + "-" + padPage(update.last);
+		}
 	} else {
 		link += "www.homestuck.com/story/";
 		link += update.first + "' target='_blank'>Homestuck pg. ";
@@ -62,4 +70,8 @@ function updateToDate(update, date) {
 	date.setFullYear(Number(update.year));
 	date.setMonth(Number(update.month) - 1);
 	date.setDate(Number(update.day));
+}
+
+function padPage(pageNumber) {
+	return pageNumber.toString().padStart(6, "0");
 }
