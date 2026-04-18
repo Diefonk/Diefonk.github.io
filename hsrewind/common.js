@@ -6,20 +6,22 @@ function getUpdateLink(update) {
 	if (update.linkText) {
 		link += update.linkText;
 	} else if (update.id === 0) {
-		link += "www.homestuck.com/problem-sleuth/";
-		link += update.first + "' target='_blank'>Problem Sleuth pg. ";
+		let offset = 218;
+		link += "www.homestuck.com/problemsleuth/";
+		link += padPage(update.first, offset) + "' target='_blank'>Problem Sleuth pg. ";
 		if (update.first === update.last) {
-			link += update.first;
+			link += padPage(update.first, offset);
 		} else {
-			link += update.first + "-" + update.last;
+			link += padPage(update.first, offset) + "-" + padPage(update.last, offset);
 		}
 	} else if (update.id === 1) {
-		link += "www.homestuck.com/bard-quest/";
-		link += update.first + "' target='_blank'>Bard Quest pg. ";
+		let offset = 169;
+		link += "www.homestuck.com/bardquest/";
+		link += padPage(update.first, offset) + "' target='_blank'>Bard Quest pg. ";
 		if (update.first === update.last) {
-			link += update.first;
+			link += padPage(update.first, offset);
 		} else {
-			link += update.first + "-" + update.last;
+			link += padPage(update.first, offset) + "-" + padPage(update.last, offset);
 		}
 	} else if (update.id === 2) {
 		link += "beyondcanon.com/story/";
@@ -54,12 +56,13 @@ function getUpdateLink(update) {
 			link += padPage(update.first) + "-" + padPage(update.last);
 		}
 	} else {
-		link += "www.homestuck.com/story/";
-		link += update.first + "' target='_blank'>Homestuck pg. ";
+		let offset = 1900;
+		link += "www.homestuck.com/";
+		link += padPage(update.first, offset) + "' target='_blank'>Homestuck pg. ";
 		if (update.first === update.last) {
-			link += update.first;
+			link += padPage(update.first, offset);
 		} else {
-			link += update.first + "-" + update.last;
+			link += padPage(update.first, offset) + "-" + padPage(update.last, offset);
 		}
 	}
 	link += "</a>";
@@ -72,6 +75,6 @@ function updateToDate(update, date) {
 	date.setDate(Number(update.day));
 }
 
-function padPage(pageNumber) {
-	return pageNumber.toString().padStart(6, "0");
+function padPage(pageNumber, offset = 0) {
+	return (Number.parseInt(pageNumber) + offset).toString().padStart(6, "0");
 }
