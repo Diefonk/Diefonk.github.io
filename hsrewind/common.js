@@ -55,6 +55,12 @@ function getUpdateLink(update) {
 		} else {
 			link += padPage(update.first) + "-" + padPage(update.last);
 		}
+	} else if (update.id === 8) {
+		link += "www.homestuck.com/jesterquest/";
+		link += padPage(update.first) + "' target='_blank'>Jester Quest pg. ";
+		link += padPage(update.first) + "-" + padPage(update.last);
+	} else if (update.id === 9) {
+		link += "www.homestuck.com/psycholonials' target='_blank'>Psycholonials chapter " + update.first;
 	} else {
 		let offset = 1900;
 		link += "www.homestuck.com/";

@@ -160,6 +160,10 @@ function getUpdateText(update) {
 		return "a Pesterquest update";
 	} else if (update.id === 7) {
 		return "a Jailbreak update";
+	} else if (update.id === 8) {
+		return "a Jester Quest update";
+	} else if (update.id === 9) {
+		return "a Psycholonials update";
 	} else {
 		return "a Homestuck update";
 	}
