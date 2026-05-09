@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Della+Respira&display=swap");
+@font-face {
+	font-family: "Della Respira";
+	src: url("DellaRespira-Regular.ttf");
+}
 * {
 	margin: 0;
 	padding: 0;
