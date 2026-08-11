@@ -11831,6 +11831,14 @@ const log = [
 		last: "1002"
 	},
 	{
+		year: "2026",
+		month: "02",
+		day: "20",
+		text: "a Troubled Cosmos release",
+		link: "mspaintadventures.itch.io/troubled-cosmos",
+		linkText: "Troubled Cosmos"
+	},
+	{
 		id: 2,
 		year: "2026",
 		month: "02",
