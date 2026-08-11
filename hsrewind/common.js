@@ -60,7 +60,23 @@ function getUpdateLink(update) {
 		link += padPage(update.first) + "' target='_blank'>Jester Quest pg. ";
 		link += padPage(update.first) + "-" + padPage(update.last);
 	} else if (update.id === 9) {
-		link += "www.homestuck.com/psycholonials' target='_blank'>Psycholonials chapter " + update.first;
+		link += "www.homestuck.com/psycholonials' target='_blank'>Psycholonials ch. " + update.first;
+	} else if (update.id == 10) {
+		link += "www.homestuck.com/old-secrets/ps";
+		link += padPage(update.first) + "' target='_blank'>Fan-requested game command ";
+		if (update.first === update.last) {
+			link += update.first;
+		} else {
+			link += update.first + "-" + update.last;
+		}
+	} else if (update.id === 11) {
+		link += "www.homestuck.com/sweetbroandhellajeff/" + update.first.padStart(3, "0");
+		link += "' target='_blank'>Sweet Bro and Hella Jeff Comic #";
+		if (update.first === update.last) {
+			link += update.first;
+		} else {
+			link += update.first + "-" + update.last;
+		}
 	} else {
 		let offset = 1900;
 		link += "www.homestuck.com/";

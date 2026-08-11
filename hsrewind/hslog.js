@@ -1435,6 +1435,14 @@ const log = [
 		last: "1215"
 	},
 	{
+		id: 10,
+		year: "2008",
+		month: "12",
+		day: "01",
+		first: "1",
+		last: "8"
+	},
+	{
 		id: 0,
 		year: "2008",
 		month: "12",
@@ -1451,12 +1459,21 @@ const log = [
 		last: "1220"
 	},
 	{
+		id: 10,
+		year: "2008",
+		month: "12",
+		day: "05",
+		first: "9",
+		last: "10"
+	},
+	{
 		id: 0,
 		year: "2008",
 		month: "12",
 		day: "05",
 		first: "1221",
-		last: "1227"
+		last: "1227",
+		double: true
 	},
 	{
 		id: 0,
@@ -1467,12 +1484,21 @@ const log = [
 		last: "1234"
 	},
 	{
+		id: 10,
+		year: "2008",
+		month: "12",
+		day: "08",
+		first: "11",
+		last: "11"
+	},
+	{
 		id: 0,
 		year: "2008",
 		month: "12",
 		day: "08",
 		first: "1235",
-		last: "1242"
+		last: "1242",
+		double: true
 	},
 	{
 		id: 0,
@@ -1507,12 +1533,29 @@ const log = [
 		last: "1261"
 	},
 	{
+		id: 10,
+		year: "2008",
+		month: "12",
+		day: "14",
+		first: "12",
+		last: "12"
+	},
+	{
+		id: 10,
+		year: "2008",
+		month: "12",
+		day: "15",
+		first: "13",
+		last: "13"
+	},
+	{
 		id: 0,
 		year: "2008",
 		month: "12",
 		day: "15",
 		first: "1262",
-		last: "1262"
+		last: "1262",
+		double: true
 	},
 	{
 		id: 0,
@@ -1523,12 +1566,21 @@ const log = [
 		last: "1265"
 	},
 	{
+		id: 10,
+		year: "2008",
+		month: "12",
+		day: "17",
+		first: "14",
+		last: "14"
+	},
+	{
 		id: 0,
 		year: "2008",
 		month: "12",
 		day: "17",
 		first: "1266",
-		last: "1267"
+		last: "1267",
+		double: true
 	},
 	{
 		id: 0,
@@ -1547,12 +1599,21 @@ const log = [
 		last: "1280"
 	},
 	{
+		id: 10,
+		year: "2008",
+		month: "12",
+		day: "20",
+		first: "15",
+		last: "16"
+	},
+	{
 		id: 0,
 		year: "2008",
 		month: "12",
 		day: "20",
 		first: "1281",
-		last: "1287"
+		last: "1287",
+		double: true
 	},
 	{
 		id: 0,
@@ -1579,12 +1640,21 @@ const log = [
 		last: "1308"
 	},
 	{
+		id: 10,
+		year: "2008",
+		month: "12",
+		day: "26",
+		first: "17",
+		last: "19"
+	},
+	{
 		id: 0,
 		year: "2008",
 		month: "12",
 		day: "26",
 		first: "1309",
-		last: "1315"
+		last: "1315",
+		double: true
 	},
 	{
 		id: 0,
@@ -1595,12 +1665,21 @@ const log = [
 		last: "1320"
 	},
 	{
+		id: 10,
+		year: "2008",
+		month: "12",
+		day: "29",
+		first: "20",
+		last: "20"
+	},
+	{
 		id: 0,
 		year: "2008",
 		month: "12",
 		day: "29",
 		first: "1321",
-		last: "1327"
+		last: "1327",
+		double: true
 	},
 	{
 		id: 0,
@@ -1643,6 +1722,14 @@ const log = [
 		last: "1357"
 	},
 	{
+		id: 10,
+		year: "2009",
+		month: "01",
+		day: "06",
+		first: "21",
+		last: "22"
+	},
+	{
 		id: 0,
 		year: "2009",
 		month: "01",
@@ -1683,12 +1770,21 @@ const log = [
 		last: "1395"
 	},
 	{
+		id: 10,
+		year: "2009",
+		month: "01",
+		day: "21",
+		first: "23",
+		last: "23"
+	},
+	{
 		id: 0,
 		year: "2009",
 		month: "01",
 		day: "21",
 		first: "1396",
-		last: "1398"
+		last: "1398",
+		double: true
 	},
 	{
 		id: 0,
@@ -1715,6 +1811,14 @@ const log = [
 		last: "1424"
 	},
 	{
+		id: 10,
+		year: "2009",
+		month: "01",
+		day: "26",
+		first: "24",
+		last: "25"
+	},
+	{
 		id: 0,
 		year: "2009",
 		month: "01",
@@ -1731,12 +1835,29 @@ const log = [
 		last: "1439"
 	},
 	{
+		id: 10,
+		year: "2009",
+		month: "01",
+		day: "30",
+		first: "26",
+		last: "26"
+	},
+	{
 		id: 0,
 		year: "2009",
 		month: "01",
 		day: "30",
 		first: "1440",
-		last: "1443"
+		last: "1443",
+		double: true
+	},
+	{
+		id: 10,
+		year: "2009",
+		month: "01",
+		day: "31",
+		first: "27",
+		last: "27"
 	},
 	{
 		id: 0,
@@ -1744,7 +1865,8 @@ const log = [
 		month: "01",
 		day: "31",
 		first: "1444",
-		last: "1446"
+		last: "1446",
+		double: true
 	},
 	{
 		id: 0,
@@ -1771,6 +1893,14 @@ const log = [
 		last: "1459"
 	},
 	{
+		id: 10,
+		year: "2009",
+		month: "02",
+		day: "06",
+		first: "28",
+		last: "28"
+	},
+	{
 		id: 0,
 		year: "2009",
 		month: "02",
@@ -1795,6 +1925,14 @@ const log = [
 		last: "1477"
 	},
 	{
+		id: 10,
+		year: "2009",
+		month: "02",
+		day: "11",
+		first: "29",
+		last: "29"
+	},
+	{
 		id: 0,
 		year: "2009",
 		month: "02",
@@ -1811,12 +1949,21 @@ const log = [
 		last: "1483"
 	},
 	{
+		id: 10,
+		year: "2009",
+		month: "02",
+		day: "14",
+		first: "30",
+		last: "30"
+	},
+	{
 		id: 0,
 		year: "2009",
 		month: "02",
 		day: "14",
 		first: "1484",
-		last: "1488"
+		last: "1488",
+		double: true
 	},
 	{
 		id: 0,
@@ -1947,12 +2094,21 @@ const log = [
 		last: "1629"
 	},
 	{
+		id: 11,
+		year: "2009",
+		month: "03",
+		day: "18",
+		first: "1",
+		last: "3"
+	},
+	{
 		id: 0,
 		year: "2009",
 		month: "03",
 		day: "18",
 		first: "1630",
-		last: "1631"
+		last: "1631",
+		double: true
 	},
 	{
 		id: 0,
@@ -2019,12 +2175,21 @@ const log = [
 		last: "1664"
 	},
 	{
+		id: 10,
+		year: "2009",
+		month: "04",
+		day: "04",
+		first: "31",
+		last: "32"
+	},
+	{
 		id: 0,
 		year: "2009",
 		month: "04",
 		day: "04",
 		first: "1665",
-		last: "1669"
+		last: "1669",
+		double: true
 	},
 	{
 		id: 0,
@@ -2035,12 +2200,37 @@ const log = [
 		last: "1670"
 	},
 	{
+		id: 10,
+		year: "2009",
+		month: "04",
+		day: "06",
+		first: "33",
+		last: "33"
+	},
+	{
+		id: 10,
+		year: "2009",
+		month: "04",
+		day: "07",
+		first: "34",
+		last: "34"
+	},
+	{
 		id: 0,
 		year: "2009",
 		month: "04",
 		day: "07",
 		first: "1671",
-		last: "1674"
+		last: "1674",
+		double: true
+	},
+	{
+		id: 10,
+		year: "2009",
+		month: "04",
+		day: "08",
+		first: "35",
+		last: "35"
 	},
 	{
 		year: "2009",
@@ -2400,11 +2590,20 @@ const log = [
 		last: "247"
 	},
 	{
+		id: 10,
+		year: "2009",
+		month: "06",
+		day: "10",
+		first: "36",
+		last: "38"
+	},
+	{
 		year: "2009",
 		month: "06",
 		day: "10",
 		first: "248",
-		last: "249"
+		last: "249",
+		double: true
 	},
 	{
 		year: "2009",
@@ -2540,11 +2739,20 @@ const log = [
 		last: "338"
 	},
 	{
+		id: 11,
+		year: "2009",
+		month: "07",
+		day: "06",
+		first: "4",
+		last: "4"
+	},
+	{
 		year: "2009",
 		month: "07",
 		day: "06",
 		first: "339",
-		last: "343"
+		last: "343",
+		double: true
 	},
 	{
 		year: "2009",
@@ -2708,11 +2916,20 @@ const log = [
 		last: "425"
 	},
 	{
+		id: 11,
+		year: "2009",
+		month: "08",
+		day: "03",
+		first: "5",
+		last: "5"
+	},
+	{
 		year: "2009",
 		month: "08",
 		day: "03",
 		first: "426",
-		last: "433"
+		last: "433",
+		double: true
 	},
 	{
 		year: "2009",
@@ -2750,11 +2967,20 @@ const log = [
 		last: "455"
 	},
 	{
+		id: 11,
+		year: "2009",
+		month: "08",
+		day: "11",
+		first: "6",
+		last: "6"
+	},
+	{
 		year: "2009",
 		month: "08",
 		day: "11",
 		first: "456",
-		last: "459"
+		last: "459",
+		double: true
 	},
 	{
 		year: "2009",
@@ -3205,11 +3431,20 @@ const log = [
 		last: "815"
 	},
 	{
+		id: 11,
+		year: "2009",
+		month: "10",
+		day: "25",
+		first: "7",
+		last: "7"
+	},
+	{
 		year: "2009",
 		month: "10",
 		day: "25",
 		first: "816",
-		last: "819"
+		last: "819",
+		double: true
 	},
 	{
 		year: "2009",
@@ -3394,11 +3629,20 @@ const log = [
 		last: "930"
 	},
 	{
+		id: 11,
+		year: "2009",
+		month: "11",
+		day: "30",
+		first: "8",
+		last: "8"
+	},
+	{
 		year: "2009",
 		month: "11",
 		day: "30",
 		first: "931",
-		last: "936"
+		last: "936",
+		double: true
 	},
 	{
 		year: "2009",
@@ -3499,6 +3743,14 @@ const log = [
 		last: "1021"
 	},
 	{
+		id: 11,
+		year: "2009",
+		month: "12",
+		day: "16",
+		first: "9",
+		last: "9"
+	},
+	{
 		year: "2009",
 		month: "12",
 		day: "17",
@@ -3553,6 +3805,14 @@ const log = [
 		day: "24",
 		first: "1070",
 		last: "1072"
+	},
+	{
+		id: 11,
+		year: "2009",
+		month: "12",
+		day: "26",
+		first: "10",
+		last: "10"
 	},
 	{
 		year: "2009",
@@ -3653,11 +3913,20 @@ const log = [
 		last: "1161"
 	},
 	{
+		id: 11,
+		year: "2010",
+		month: "01",
+		day: "17",
+		first: "11",
+		last: "11"
+	},
+	{
 		year: "2010",
 		month: "01",
 		day: "17",
 		first: "1162",
-		last: "1169"
+		last: "1169",
+		double: true
 	},
 	{
 		year: "2010",
@@ -3723,11 +3992,20 @@ const log = [
 		last: "1261"
 	},
 	{
+		id: 11,
+		year: "2010",
+		month: "01",
+		day: "27",
+		first: "12",
+		last: "12"
+	},
+	{
 		year: "2010",
 		month: "01",
 		day: "27",
 		first: "1262",
-		last: "1265"
+		last: "1265",
+		double: true
 	},
 	{
 		year: "2010",
@@ -4003,6 +4281,22 @@ const log = [
 		last: "1588"
 	},
 	{
+		id: 11,
+		year: "2010",
+		month: "03",
+		day: "15",
+		first: "13",
+		last: "13"
+	},
+	{
+		id: 11,
+		year: "2010",
+		month: "03",
+		day: "16",
+		first: "14",
+		last: "14"
+	},
+	{
 		year: "2010",
 		month: "03",
 		day: "17",
@@ -4045,11 +4339,20 @@ const log = [
 		last: "1607"
 	},
 	{
+		id: 11,
+		year: "2010",
+		month: "03",
+		day: "24",
+		first: "15",
+		last: "15"
+	},
+	{
 		year: "2010",
 		month: "03",
 		day: "24",
 		first: "1608",
-		last: "1614"
+		last: "1614",
+		double: true
 	},
 	{
 		year: "2010",
@@ -4227,11 +4530,28 @@ const log = [
 		last: "1799"
 	},
 	{
+		id: 10,
+		year: "2010",
+		month: "05",
+		day: "01",
+		first: "39",
+		last: "39"
+	},
+	{
+		id: 11,
+		year: "2010",
+		month: "05",
+		day: "05",
+		first: "16",
+		last: "16"
+	},
+	{
 		year: "2010",
 		month: "05",
 		day: "05",
 		first: "1800",
-		last: "1801"
+		last: "1801",
+		double: true
 	},
 	{
 		year: "2010",
@@ -4318,11 +4638,20 @@ const log = [
 		last: "1914"
 	},
 	{
+		id: 11,
+		year: "2010",
+		month: "05",
+		day: "24",
+		link: "www.homestuck.com/sweetbroandhellajeff/movies/SBAHJthemovie1",
+		linkText: "Sweet Bro and Hella Jeff Movie #1"
+	},
+	{
 		year: "2010",
 		month: "05",
 		day: "24",
 		first: "1915",
-		last: "1928"
+		last: "1928",
+		double: true
 	},
 	{
 		year: "2010",
@@ -4549,11 +4878,20 @@ const log = [
 		last: "2144"
 	},
 	{
+		id: 11,
+		year: "2010",
+		month: "07",
+		day: "03",
+		first: "17",
+		last: "17"
+	},
+	{
 		year: "2010",
 		month: "07",
 		day: "03",
 		first: "2145",
-		last: "2154"
+		last: "2154",
+		double: true
 	},
 	{
 		year: "2010",
@@ -4717,11 +5055,20 @@ const log = [
 		last: "2328"
 	},
 	{
+		id: 10,
+		year: "2010",
+		month: "08",
+		day: "02",
+		first: "40",
+		last: "40"
+	},
+	{
 		year: "2010",
 		month: "08",
 		day: "02",
 		first: "2329",
-		last: "2341"
+		last: "2341",
+		double: true
 	},
 	{
 		year: "2010",
@@ -5088,11 +5435,20 @@ const log = [
 		last: "2722"
 	},
 	{
+		id: 11,
+		year: "2010",
+		month: "10",
+		day: "02",
+		first: "18",
+		last: "18"
+	},
+	{
 		year: "2010",
 		month: "10",
 		day: "02",
 		first: "2723",
-		last: "2724"
+		last: "2724",
+		double: true
 	},
 	{
 		year: "2010",
@@ -5207,11 +5563,20 @@ const log = [
 		last: "2797"
 	},
 	{
+		id: 11,
+		year: "2010",
+		month: "10",
+		day: "27",
+		first: "19",
+		last: "19"
+	},
+	{
 		year: "2010",
 		month: "10",
 		day: "27",
 		first: "2798",
-		last: "2802"
+		last: "2802",
+		double: true
 	},
 	{
 		year: "2010",
@@ -5340,11 +5705,20 @@ const log = [
 		last: "2889"
 	},
 	{
+		id: 11,
+		year: "2010",
+		month: "11",
+		day: "18",
+		first: "20",
+		last: "22"
+	},
+	{
 		year: "2010",
 		month: "11",
 		day: "18",
 		first: "2890",
-		last: "2893"
+		last: "2893",
+		double: true
 	},
 	{
 		year: "2010",
@@ -5557,6 +5931,14 @@ const log = [
 		last: "3173"
 	},
 	{
+		id: 11,
+		year: "2010",
+		month: "12",
+		day: "27",
+		first: "23",
+		last: "23"
+	},
+	{
 		year: "2010",
 		month: "12",
 		day: "28",
@@ -5653,6 +6035,14 @@ const log = [
 		day: "10",
 		first: "3282",
 		last: "3296"
+	},
+	{
+		id: 11,
+		year: "2011",
+		month: "01",
+		day: "13",
+		first: "24",
+		last: "24"
 	},
 	{
 		year: "2011",
@@ -5753,11 +6143,20 @@ const log = [
 		last: "3401"
 	},
 	{
+		id: 11,
+		year: "2011",
+		month: "01",
+		day: "31",
+		first: "25",
+		last: "25"
+	},
+	{
 		year: "2011",
 		month: "01",
 		day: "31",
 		first: "3402",
-		last: "3414"
+		last: "3414",
+		double: true
 	},
 	{
 		year: "2011",
@@ -5935,11 +6334,20 @@ const log = [
 		last: "3605"
 	},
 	{
+		id: 11,
+		year: "2011",
+		month: "03",
+		day: "02",
+		first: "26",
+		last: "26"
+	},
+	{
 		year: "2011",
 		month: "03",
 		day: "02",
 		first: "3606",
-		last: "3607"
+		last: "3607",
+		double: true
 	},
 	{
 		year: "2011",
@@ -6131,11 +6539,20 @@ const log = [
 		last: "3709"
 	},
 	{
+		id: 11,
+		year: "2011",
+		month: "04",
+		day: "13",
+		first: "27",
+		last: "27"
+	},
+	{
 		year: "2011",
 		month: "04",
 		day: "13",
 		first: "3710",
-		last: "3713"
+		last: "3713",
+		double: true
 	},
 	{
 		year: "2011",
@@ -6194,6 +6611,14 @@ const log = [
 		last: "3742"
 	},
 	{
+		id: 11,
+		year: "2011",
+		month: "04",
+		day: "26",
+		first: "28",
+		last: "30"
+	},
+	{
 		year: "2011",
 		month: "04",
 		day: "27",
@@ -6229,11 +6654,20 @@ const log = [
 		last: "3760"
 	},
 	{
+		id: 11,
+		year: "2011",
+		month: "05",
+		day: "16",
+		first: "31",
+		last: "31"
+	},
+	{
 		year: "2011",
 		month: "05",
 		day: "16",
 		first: "3761",
-		last: "3766"
+		last: "3766",
+		double: true
 	},
 	{
 		year: "2011",
@@ -6327,11 +6761,20 @@ const log = [
 		last: "3825"
 	},
 	{
+		id: 11,
+		year: "2011",
+		month: "06",
+		day: "05",
+		first: "32",
+		last: "33"
+	},
+	{
 		year: "2011",
 		month: "06",
 		day: "05",
 		first: "3826",
-		last: "3826"
+		last: "3826",
+		double: true
 	},
 	{
 		year: "2011",
@@ -6395,6 +6838,14 @@ const log = [
 		day: "20",
 		first: "3868",
 		last: "3870"
+	},
+	{
+		id: 11,
+		year: "2011",
+		month: "06",
+		day: "25",
+		first: "34",
+		last: "34"
 	},
 	{
 		year: "2011",
@@ -6481,11 +6932,20 @@ const log = [
 		last: "4018"
 	},
 	{
+		id: 11,
+		year: "2011",
+		month: "08",
+		day: "04",
+		first: "35",
+		last: "35"
+	},
+	{
 		year: "2011",
 		month: "08",
 		day: "04",
 		first: "4019",
-		last: "4026"
+		last: "4026",
+		double: true
 	},
 	{
 		year: "2011",
@@ -6607,6 +7067,14 @@ const log = [
 		last: "4100"
 	},
 	{
+		id: 11,
+		year: "2011",
+		month: "09",
+		day: "27",
+		first: "36",
+		last: "36"
+	},
+	{
 		year: "2011",
 		month: "10",
 		day: "25",
@@ -6626,6 +7094,14 @@ const log = [
 		day: "02",
 		first: "4112",
 		last: "4112"
+	},
+	{
+		id: 11,
+		year: "2011",
+		month: "11",
+		day: "08",
+		first: "37",
+		last: "37"
 	},
 	{
 		year: "2011",
@@ -6824,11 +7300,20 @@ const log = [
 		last: "4310"
 	},
 	{
+		id: 11,
+		year: "2011",
+		month: "12",
+		day: "13",
+		first: "38",
+		last: "38"
+	},
+	{
 		year: "2011",
 		month: "12",
 		day: "13",
 		first: "4311",
-		last: "4317"
+		last: "4317",
+		double: true
 	},
 	{
 		year: "2011",
@@ -6859,11 +7344,20 @@ const log = [
 		last: "4345"
 	},
 	{
+		id: 11,
+		year: "2011",
+		month: "12",
+		day: "18",
+		first: "40",
+		last: "40"
+	},
+	{
 		year: "2011",
 		month: "12",
 		day: "18",
 		first: "4346",
-		last: "4348"
+		last: "4348",
+		double: true
 	},
 	{
 		year: "2011",
@@ -6971,11 +7465,20 @@ const log = [
 		last: "4452"
 	},
 	{
+		id: 11,
+		year: "2012",
+		month: "01",
+		day: "12",
+		first: "41",
+		last: "41"
+	},
+	{
 		year: "2012",
 		month: "01",
 		day: "12",
 		first: "4453",
-		last: "4453"
+		last: "4453",
+		double: true
 	},
 	{
 		year: "2012",
@@ -7083,11 +7586,20 @@ const log = [
 		last: "4532"
 	},
 	{
+		id: 11,
+		year: "2012",
+		month: "02",
+		day: "02",
+		first: "42",
+		last: "42"
+	},
+	{
 		year: "2012",
 		month: "02",
 		day: "02",
 		first: "4533",
-		last: "4536"
+		last: "4536",
+		double: true
 	},
 	{
 		year: "2012",
@@ -7433,11 +7945,20 @@ const log = [
 		last: "4819"
 	},
 	{
+		id: 11,
+		year: "2012",
+		month: "04",
+		day: "14",
+		first: "43",
+		last: "43"
+	},
+	{
 		year: "2012",
 		month: "04",
 		day: "14",
 		first: "4820",
-		last: "4824"
+		last: "4824",
+		double: true
 	},
 	{
 		year: "2012",
@@ -7487,6 +8008,14 @@ const log = [
 		day: "22",
 		first: "4847",
 		last: "4853"
+	},
+	{
+		id: 11,
+		year: "2012",
+		month: "04",
+		day: "23",
+		first: "44",
+		last: "44"
 	},
 	{
 		year: "2012",
@@ -9379,11 +9908,20 @@ const log = [
 		last: "6737"
 	},
 	{
+		id: 11,
+		year: "2013",
+		month: "09",
+		day: "25",
+		first: "45",
+		last: "45"
+	},
+	{
 		year: "2013",
 		month: "09",
 		day: "25",
 		first: "6738",
-		last: "6739"
+		last: "6739",
+		double: true
 	},
 	{
 		year: "2013",
@@ -9407,11 +9945,20 @@ const log = [
 		last: "6755"
 	},
 	{
+		id: 11,
+		year: "2013",
+		month: "10",
+		day: "04",
+		first: "46",
+		last: "46"
+	},
+	{
 		year: "2013",
 		month: "10",
 		day: "04",
 		first: "6756",
-		last: "6768"
+		last: "6768",
+		double: true
 	},
 	{
 		year: "2013",
@@ -9433,6 +9980,54 @@ const log = [
 		day: "16",
 		first: "6823",
 		last: "6852"
+	},
+	{
+		id: 11,
+		year: "2013",
+		month: "10",
+		day: "28",
+		first: "47",
+		last: "47"
+	},
+	{
+		id: 11,
+		year: "2013",
+		month: "11",
+		day: "03",
+		first: "48",
+		last: "48"
+	},
+	{
+		id: 11,
+		year: "2013",
+		month: "12",
+		day: "02",
+		first: "49",
+		last: "49"
+	},
+	{
+		id: 11,
+		year: "2013",
+		month: "12",
+		day: "11",
+		first: "50",
+		last: "50"
+	},
+	{
+		id: 11,
+		year: "2014",
+		month: "10",
+		day: "08",
+		first: "51",
+		last: "51"
+	},
+	{
+		id: 11,
+		year: "2014",
+		month: "10",
+		day: "09",
+		first: "52",
+		last: "52"
 	},
 	{
 		year: "2014",
@@ -10217,6 +10812,14 @@ const log = [
 		month: "09",
 		day: "14",
 		first: "1"
+	},
+	{
+		id: 11,
+		year: "2017",
+		month: "11",
+		day: "14",
+		first: "53",
+		last: "54"
 	},
 	{
 		id: 5,

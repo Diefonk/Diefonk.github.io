@@ -164,6 +164,10 @@ function getUpdateText(update) {
 		return "a Jester Quest update";
 	} else if (update.id === 9) {
 		return "a Psycholonials update";
+	} else if (update.id === 10) {
+		return "a fan-requested game commands update";
+	} else if (update.id === 11) {
+		return "a Sweet Bro and Hella Jeff update";
 	} else {
 		return "a Homestuck update";
 	}
