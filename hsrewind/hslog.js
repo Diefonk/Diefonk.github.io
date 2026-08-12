@@ -4642,7 +4642,7 @@ const log = [
 		year: "2010",
 		month: "05",
 		day: "24",
-		link: "www.homestuck.com/sweetbroandhellajeff/movies/SBAHJthemovie1",
+		link: "https://www.homestuck.com/sweetbroandhellajeff/movies/SBAHJthemovie1",
 		linkText: "Sweet Bro and Hella Jeff Movie #1"
 	},
 	{
@@ -10014,12 +10014,1037 @@ const log = [
 		last: "50"
 	},
 	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "13",
+		first: "1",
+		last: "6"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "14",
+		first: "7",
+		last: "7"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "15",
+		first: "8",
+		last: "8"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "16",
+		first: "9",
+		last: "9"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "17",
+		first: "10",
+		last: "10"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "18",
+		first: "11",
+		last: "11"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "21",
+		first: "12",
+		last: "12"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "22",
+		first: "13",
+		last: "13"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "23",
+		first: "14",
+		last: "14"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "24",
+		first: "15",
+		last: "15"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "25",
+		first: "16",
+		last: "16"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "28",
+		first: "17",
+		last: "17"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "29",
+		first: "18",
+		last: "18"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "04",
+		day: "30",
+		first: "19",
+		last: "19"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "01",
+		first: "20",
+		last: "20"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "02",
+		first: "21",
+		last: "21"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "05",
+		first: "22",
+		last: "22"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "06",
+		first: "23",
+		last: "23"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "07",
+		first: "24",
+		last: "24"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "08",
+		first: "25",
+		last: "25"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "09",
+		first: "26",
+		last: "26"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "12",
+		first: "27",
+		last: "28"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "13",
+		first: "29",
+		last: "30"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "14",
+		first: "31",
+		last: "32"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "15",
+		first: "33",
+		last: "34"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "16",
+		first: "35",
+		last: "36"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "19",
+		first: "37",
+		last: "37"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "10",
+		first: "38",
+		last: "38"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "21",
+		first: "39",
+		last: "39"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "22",
+		first: "40",
+		last: "40"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "23",
+		first: "41",
+		last: "41"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "26",
+		first: "42",
+		last: "42"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "27",
+		first: "43",
+		last: "43"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "28",
+		first: "44",
+		last: "44"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "29",
+		first: "45",
+		last: "45"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "05",
+		day: "30",
+		first: "46",
+		last: "46"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "02",
+		first: "47",
+		last: "47"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "03",
+		first: "48",
+		last: "48"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "04",
+		first: "49",
+		last: "49"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "05",
+		first: "50",
+		last: "50"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "06",
+		first: "51",
+		last: "51"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "09",
+		first: "52",
+		last: "52"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "10",
+		first: "53",
+		last: "53"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "11",
+		first: "54",
+		last: "54"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "12",
+		first: "55",
+		last: "55"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "13",
+		first: "56",
+		last: "56"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "16",
+		first: "57",
+		last: "57"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "17",
+		first: "58",
+		last: "58"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "18",
+		first: "59",
+		last: "59"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "19",
+		first: "60",
+		last: "60"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "20",
+		first: "61",
+		last: "61"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "23",
+		first: "62",
+		last: "62"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "24",
+		first: "63",
+		last: "63"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "25",
+		first: "64",
+		last: "64"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "26",
+		first: "65",
+		last: "65"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "27",
+		first: "66",
+		last: "66"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "06",
+		day: "30",
+		first: "67",
+		last: "67"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "01",
+		first: "68",
+		last: "68"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "02",
+		first: "69",
+		last: "69"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "03",
+		first: "70",
+		last: "70"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "04",
+		first: "71",
+		last: "71"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "07",
+		first: "72",
+		last: "72"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "08",
+		first: "73",
+		last: "73"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "09",
+		first: "74",
+		last: "74"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "10",
+		first: "75",
+		last: "75"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "11",
+		first: "76",
+		last: "76"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "14",
+		first: "77",
+		last: "77"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "15",
+		first: "78",
+		last: "78"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "16",
+		first: "79",
+		last: "79"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "17",
+		first: "80",
+		last: "80"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "18",
+		first: "81",
+		last: "81"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "21",
+		first: "82",
+		last: "82"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "22",
+		first: "83",
+		last: "83"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "23",
+		first: "84",
+		last: "84"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "24",
+		first: "85",
+		last: "85"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "25",
+		first: "86",
+		last: "86"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "28",
+		first: "87",
+		last: "87"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "29",
+		first: "88",
+		last: "88"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "30",
+		first: "89",
+		last: "89"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "07",
+		day: "31",
+		first: "90",
+		last: "90"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "01",
+		first: "91",
+		last: "91"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "04",
+		first: "92",
+		last: "92"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "05",
+		first: "93",
+		last: "93"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "06",
+		first: "94",
+		last: "94"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "07",
+		first: "95",
+		last: "95"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "08",
+		first: "96",
+		last: "96"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "11",
+		first: "97",
+		last: "97"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "12",
+		first: "98",
+		last: "98"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "13",
+		first: "99",
+		last: "99"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "14",
+		first: "100",
+		last: "100"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "15",
+		first: "101",
+		last: "101"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "18",
+		first: "102",
+		last: "102"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "19",
+		first: "103",
+		last: "103"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "20",
+		first: "104",
+		last: "104"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "21",
+		first: "105",
+		last: "105"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "22",
+		first: "106",
+		last: "106"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "25",
+		first: "107",
+		last: "107"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "26",
+		first: "108",
+		last: "108"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "27",
+		first: "109",
+		last: "109"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "28",
+		first: "110",
+		last: "110"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "08",
+		day: "29",
+		first: "111",
+		last: "111"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "01",
+		first: "112",
+		last: "112"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "02",
+		first: "113",
+		last: "113"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "03",
+		first: "114",
+		last: "114"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "04",
+		first: "115",
+		last: "115"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "05",
+		first: "116",
+		last: "116"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "08",
+		first: "117",
+		last: "117"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "09",
+		first: "118",
+		last: "118"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "10",
+		first: "119",
+		last: "119"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "11",
+		first: "120",
+		last: "120"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "12",
+		first: "121",
+		last: "121"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "15",
+		first: "122",
+		last: "123"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "17",
+		first: "124",
+		last: "124"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "18",
+		first: "125",
+		last: "125"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "19",
+		first: "126",
+		last: "126"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "22",
+		first: "127",
+		last: "127"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "23",
+		first: "128",
+		last: "128"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "24",
+		first: "129",
+		last: "129"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "25",
+		first: "130",
+		last: "130"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "26",
+		first: "131",
+		last: "131"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "29",
+		first: "132",
+		last: "132"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "09",
+		day: "30",
+		first: "133",
+		last: "133"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "01",
+		first: "134",
+		last: "134"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "02",
+		first: "135",
+		last: "135"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "03",
+		first: "136",
+		last: "136"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "06",
+		first: "137",
+		last: "137"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "07",
+		first: "138",
+		last: "138"
+	},
+	{
 		id: 11,
 		year: "2014",
 		month: "10",
 		day: "08",
 		first: "51",
 		last: "51"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "08",
+		first: "139",
+		last: "139",
+		double: true
 	},
 	{
 		id: 11,
@@ -10030,11 +11055,69 @@ const log = [
 		last: "52"
 	},
 	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "09",
+		first: "140",
+		last: "140",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "10",
+		first: "141",
+		last: "141"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "13",
+		first: "142",
+		last: "142"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "14",
+		first: "143",
+		last: "143"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "15",
+		first: "144",
+		last: "144"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "16",
+		first: "145",
+		last: "145"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "17",
+		first: "146",
+		last: "146"
+	},
+	{
 		year: "2014",
 		month: "10",
 		day: "17",
 		first: "6853",
-		last: "6853"
+		last: "6853",
+		double: true
 	},
 	{
 		year: "2014",
@@ -10051,6 +11134,46 @@ const log = [
 		last: "6900"
 	},
 	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "20",
+		first: "147",
+		last: "147"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "21",
+		first: "148",
+		last: "148"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "22",
+		first: "149",
+		last: "149"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "23",
+		first: "150",
+		last: "150"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "24",
+		first: "151",
+		last: "151"
+	},
+	{
 		year: "2014",
 		month: "10",
 		day: "25",
@@ -10065,6 +11188,46 @@ const log = [
 		last: "6920"
 	},
 	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "27",
+		first: "152",
+		last: "152"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "28",
+		first: "153",
+		last: "153"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "29",
+		first: "154",
+		last: "154"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "30",
+		first: "155",
+		last: "155"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "10",
+		day: "31",
+		first: "156",
+		last: "156"
+	},
+	{
 		year: "2014",
 		month: "11",
 		day: "02",
@@ -10072,214 +11235,668 @@ const log = [
 		last: "6943"
 	},
 	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "03",
+		first: "157",
+		last: "157"
+	},
+	{
 		year: "2014",
 		month: "11",
 		day: "03",
 		first: "6944",
-		last: "6952"
+		last: "6952",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "04",
+		first: "158",
+		last: "158"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "05",
+		first: "159",
+		last: "159"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "05",
 		first: "6953",
-		last: "6964"
+		last: "6964",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "06",
+		first: "160",
+		last: "160"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "07",
+		first: "161",
+		last: "161"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "07",
 		first: "6965",
-		last: "6983"
+		last: "6983",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "10",
+		first: "162",
+		last: "162"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "10",
 		first: "6984",
-		last: "7006"
+		last: "7006",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "11",
+		first: "163",
+		last: "163"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "12",
+		first: "164",
+		last: "164"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "12",
 		first: "7007",
-		last: "7021"
+		last: "7021",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "13",
+		first: "165",
+		last: "165"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "14",
+		first: "166",
+		last: "166"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "14",
 		first: "7022",
-		last: "7028"
+		last: "7028",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "17",
+		first: "167",
+		last: "167"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "17",
 		first: "7029",
-		last: "7036"
+		last: "7036",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "18",
+		first: "168",
+		last: "168"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "19",
+		first: "169",
+		last: "169"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "19",
 		first: "7037",
-		last: "7058"
+		last: "7058",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "20",
+		first: "170",
+		last: "170"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "21",
+		first: "171",
+		last: "171"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "21",
 		first: "7059",
-		last: "7077"
+		last: "7077",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "24",
+		first: "172",
+		last: "172"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "24",
 		first: "7078",
-		last: "7086"
+		last: "7086",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "25",
+		first: "173",
+		last: "173"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "26",
+		first: "174",
+		last: "174"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "26",
 		first: "7087",
-		last: "7097"
+		last: "7097",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "27",
+		first: "175",
+		last: "175"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "11",
+		day: "28",
+		first: "176",
+		last: "176"
 	},
 	{
 		year: "2014",
 		month: "11",
 		day: "28",
 		first: "7098",
-		last: "7098"
+		last: "7098",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "01",
+		first: "177",
+		last: "177"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "01",
 		first: "7099",
-		last: "7101"
+		last: "7101",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "02",
+		first: "178",
+		last: "178"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "03",
+		first: "179",
+		last: "179"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "03",
 		first: "7102",
-		last: "7110"
+		last: "7110",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "04",
+		first: "180",
+		last: "180"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "05",
+		first: "181",
+		last: "181"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "05",
 		first: "7111",
-		last: "7125"
+		last: "7125",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "08",
+		first: "182",
+		last: "182"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "08",
 		first: "7126",
-		last: "7150"
+		last: "7150",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "09",
+		first: "183",
+		last: "183"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "10",
+		first: "184",
+		last: "184"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "10",
 		first: "7151",
-		last: "7162"
+		last: "7162",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "11",
+		first: "185",
+		last: "185"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "12",
+		first: "186",
+		last: "186"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "12",
 		first: "7163",
-		last: "7170"
+		last: "7170",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "15",
+		first: "191",
+		last: "191"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "15",
 		first: "7171",
-		last: "7187"
+		last: "7187",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "16",
+		first: "192",
+		last: "192"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "17",
+		first: "193",
+		last: "193"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "17",
 		first: "7188",
-		last: "7205"
+		last: "7205",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "18",
+		first: "194",
+		last: "194"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "19",
+		first: "195",
+		last: "195"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "19",
 		first: "7206",
-		last: "7225"
+		last: "7225",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "20",
+		first: "187",
+		last: "188"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "21",
+		first: "189",
+		last: "190"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "22",
+		first: "196",
+		last: "197"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "22",
 		first: "7226",
-		last: "7230"
+		last: "7230",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "23",
+		first: "198",
+		last: "199"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "24",
+		first: "200",
+		last: "201"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "24",
 		first: "7231",
-		last: "7246"
+		last: "7246",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "25",
+		first: "202",
+		last: "203"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "26",
+		first: "204",
+		last: "205"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "26",
 		first: "7247",
-		last: "7263"
+		last: "7263",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "29",
+		first: "206",
+		last: "206"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "29",
 		first: "7264",
-		last: "7273"
+		last: "7273",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "30",
+		first: "207",
+		last: "207"
+	},
+	{
+		id: 12,
+		year: "2014",
+		month: "12",
+		day: "31",
+		first: "208",
+		last: "208"
 	},
 	{
 		year: "2014",
 		month: "12",
 		day: "31",
 		first: "7274",
-		last: "7283"
+		last: "7283",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "01",
+		first: "209",
+		last: "209"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "02",
+		first: "210",
+		last: "210"
 	},
 	{
 		year: "2015",
 		month: "01",
 		day: "02",
 		first: "7284",
-		last: "7301"
+		last: "7301",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "05",
+		first: "211",
+		last: "211"
 	},
 	{
 		year: "2015",
 		month: "01",
 		day: "05",
 		first: "7302",
-		last: "7318"
+		last: "7318",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "06",
+		first: "212",
+		last: "212"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "07",
+		first: "213",
+		last: "213"
 	},
 	{
 		year: "2015",
 		month: "01",
 		day: "07",
 		first: "7319",
-		last: "7337"
+		last: "7337",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "08",
+		first: "214",
+		last: "214"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "09",
+		first: "215",
+		last: "215"
 	},
 	{
 		year: "2015",
 		month: "01",
 		day: "09",
 		first: "7338",
-		last: "7354"
+		last: "7354",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "11",
+		first: "216",
+		last: "216"
 	},
 	{
 		year: "2015",
@@ -10289,32 +11906,556 @@ const log = [
 		last: "7378"
 	},
 	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "13",
+		first: "217",
+		last: "217"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "14",
+		first: "218",
+		last: "218"
+	},
+	{
 		year: "2015",
 		month: "01",
 		day: "14",
 		first: "7379",
-		last: "7388"
+		last: "7388",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "15",
+		first: "219",
+		last: "219"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "16",
+		first: "220",
+		last: "220"
 	},
 	{
 		year: "2015",
 		month: "01",
 		day: "16",
 		first: "7389",
-		last: "7404"
+		last: "7404",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "19",
+		first: "221",
+		last: "221"
 	},
 	{
 		year: "2015",
 		month: "01",
 		day: "19",
 		first: "7405",
-		last: "7408"
+		last: "7408",
+		double: true
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "20",
+		first: "222",
+		last: "222"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "21",
+		first: "223",
+		last: "223"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "22",
+		first: "224",
+		last: "224"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "23",
+		first: "225",
+		last: "225"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "26",
+		first: "226",
+		last: "226"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "27",
+		first: "227",
+		last: "227"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "28",
+		first: "228",
+		last: "228"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "29",
+		first: "229",
+		last: "229"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "01",
+		day: "30",
+		first: "230",
+		last: "230"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "02",
+		first: "231",
+		last: "231"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "03",
+		first: "232",
+		last: "232"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "04",
+		first: "233",
+		last: "233"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "05",
+		first: "234",
+		last: "234"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "06",
+		first: "235",
+		last: "235"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "09",
+		first: "236",
+		last: "236"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "10",
+		first: "237",
+		last: "237"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "11",
+		first: "238",
+		last: "238"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "12",
+		first: "239",
+		last: "239"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "13",
+		first: "240",
+		last: "240"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "16",
+		first: "241",
+		last: "241"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "17",
+		first: "242",
+		last: "242"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "18",
+		first: "243",
+		last: "243"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "19",
+		first: "244",
+		last: "244"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "20",
+		first: "245",
+		last: "245"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "23",
+		first: "246",
+		last: "246"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "24",
+		first: "247",
+		last: "247"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "25",
+		first: "248",
+		last: "248"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "26",
+		first: "249",
+		last: "249"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "02",
+		day: "27",
+		first: "250",
+		last: "250"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "02",
+		first: "251",
+		last: "251"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "03",
+		first: "252",
+		last: "252"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "04",
+		first: "253",
+		last: "253"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "05",
+		first: "254",
+		last: "254"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "06",
+		first: "255",
+		last: "255"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "09",
+		first: "256",
+		last: "256"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "10",
+		first: "257",
+		last: "257"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "11",
+		first: "258",
+		last: "258"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "12",
+		first: "259",
+		last: "259"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "13",
+		first: "260",
+		last: "260"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "16",
+		first: "261",
+		last: "261"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "17",
+		first: "262",
+		last: "262"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "18",
+		first: "263",
+		last: "263"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "19",
+		first: "264",
+		last: "264"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "20",
+		first: "265",
+		last: "265"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "23",
+		first: "266",
+		last: "267"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "24",
+		first: "268",
+		last: "269"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "25",
+		first: "270",
+		last: "271"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "26",
+		first: "272",
+		last: "273"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "27",
+		first: "274",
+		last: "275"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "30",
+		first: "276",
+		last: "276"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "03",
+		day: "31",
+		first: "277",
+		last: "277"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "04",
+		day: "01",
+		first: "278",
+		last: "278"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "04",
+		day: "02",
+		first: "279",
+		last: "279"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "04",
+		day: "03",
+		first: "280",
+		last: "280"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "04",
+		day: "06",
+		first: "281",
+		last: "281"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "04",
+		day: "07",
+		first: "282",
+		last: "282"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "04",
+		day: "08",
+		first: "283",
+		last: "283"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "04",
+		day: "09",
+		first: "284",
+		last: "284"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "04",
+		day: "10",
+		first: "285",
+		last: "285"
+	},
+	{
+		id: 12,
+		year: "2015",
+		month: "04",
+		day: "13",
+		first: "286",
+		last: "286"
 	},
 	{
 		year: "2015",
 		month: "04",
 		day: "13",
 		first: "7409",
-		last: "7420"
+		last: "7420",
+		double: true
 	},
 	{
 		year: "2015",
@@ -10702,6 +12843,14 @@ const log = [
 		last: "7959"
 	},
 	{
+		id: 12,
+		year: "2016",
+		month: "03",
+		day: "08",
+		first: "287",
+		last: "291"
+	},
+	{
 		year: "2016",
 		month: "03",
 		day: "28",
@@ -10970,7 +13119,7 @@ const log = [
 		month: "04",
 		day: "13",
 		text: "a Homestuck Epilogues update",
-		link: "www.homestuck.com/epilogues/prologue",
+		link: "https://www.homestuck.com/epilogues/prologue",
 		linkText: "The Homestuck Epilogues: Prologue"
 	},
 	{
@@ -10978,7 +13127,7 @@ const log = [
 		month: "04",
 		day: "20",
 		text: "a Homestuck Epilogues update",
-		link: "www.homestuck.com/epilogues/meat/1",
+		link: "https://www.homestuck.com/epilogues/meat/1",
 		linkText: "The Homestuck Epilogues: Meat"
 	},
 	{
@@ -10986,7 +13135,7 @@ const log = [
 		month: "04",
 		day: "20",
 		text: "a Homestuck Epilogues update",
-		link: "www.homestuck.com/epilogues/candy/1",
+		link: "https://www.homestuck.com/epilogues/candy/1",
 		linkText: "The Homestuck Epilogues: Candy",
 		double: true
 	},
@@ -11529,7 +13678,7 @@ const log = [
 		year: "2024",
 		month: "07",
 		day: "23",
-		link: "beyondcanon.com/story/666",
+		link: "https://beyondcanon.com/story/666",
 		linkText: "Homestuck: Beyond Canon pg. 666 - Prologue/Chapter 1"
 	},
 	{
@@ -11537,7 +13686,7 @@ const log = [
 		year: "2024",
 		month: "07",
 		day: "24",
-		link: "beyondcanon.com/story/666",
+		link: "https://beyondcanon.com/story/666",
 		linkText: "Homestuck: Beyond Canon pg. 666 - Chapter 2"
 	},
 	{
@@ -11545,7 +13694,7 @@ const log = [
 		year: "2024",
 		month: "08",
 		day: "11",
-		link: "beyondcanon.com/story/666",
+		link: "https://beyondcanon.com/story/666",
 		linkText: "Homestuck: Beyond Canon pg. 666 - Chapter 3"
 	},
 	{
@@ -11553,7 +13702,7 @@ const log = [
 		year: "2024",
 		month: "08",
 		day: "25",
-		link: "beyondcanon.com/story/666",
+		link: "https://beyondcanon.com/story/666",
 		linkText: "Homestuck: Beyond Canon pg. 666 - Chapter 4"
 	},
 	{
@@ -11561,7 +13710,7 @@ const log = [
 		year: "2024",
 		month: "09",
 		day: "14",
-		link: "beyondcanon.com/story/666",
+		link: "https://beyondcanon.com/story/666",
 		linkText: "Homestuck: Beyond Canon pg. 666 - Chapter X"
 	},
 	{
@@ -11569,7 +13718,7 @@ const log = [
 		year: "2024",
 		month: "09",
 		day: "29",
-		link: "beyondcanon.com/story/666",
+		link: "https://beyondcanon.com/story/666",
 		linkText: "Homestuck: Beyond Canon pg. 666 - Chapter 6"
 	},
 	{
@@ -11835,7 +13984,7 @@ const log = [
 		month: "02",
 		day: "20",
 		text: "a Troubled Cosmos release",
-		link: "mspaintadventures.itch.io/troubled-cosmos",
+		link: "https://mspaintadventures.itch.io/troubled-cosmos",
 		linkText: "Troubled Cosmos"
 	},
 	{

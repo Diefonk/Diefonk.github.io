@@ -168,6 +168,8 @@ function getUpdateText(update) {
 		return "a fan-requested game commands update";
 	} else if (update.id === 11) {
 		return "a Sweet Bro and Hella Jeff update";
+	} else if (update.id === 12) {
+		return "a Paradox Space update";
 	} else {
 		return "a Homestuck update";
 	}
