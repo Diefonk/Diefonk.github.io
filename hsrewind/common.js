@@ -71,7 +71,7 @@ function getUpdateLink(update) {
 		}
 	} else if (update.id === 11) {
 		link += "https://www.homestuck.com/sweetbroandhellajeff/" + update.first.padStart(3, "0");
-		link += "' target='_blank'>Sweet Bro and Hella Jeff Comic #";
+		link += "' target='_blank'>Sweet Bro and Hella Jeff comic #";
 		if (update.first === update.last) {
 			link += update.first;
 		} else {
@@ -85,6 +85,9 @@ function getUpdateLink(update) {
 		} else {
 			link += update.first + "-" + update.last;
 		}
+	} else if (update.id === 13) {
+		link += "https://discord.com/channels/1404836696909938820/1473830043846185124/";
+		link += update.first + "' target='_blank'>Circus Break update " + update.title;
 	} else {
 		let offset = 1900;
 		link += "https://www.homestuck.com/";

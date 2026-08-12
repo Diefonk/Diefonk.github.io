@@ -170,6 +170,8 @@ function getUpdateText(update) {
 		return "a Sweet Bro and Hella Jeff update";
 	} else if (update.id === 12) {
 		return "a Paradox Space update";
+	} else if (update.id === 13) {
+		return "a Circus Break update";
 	} else {
 		return "a Homestuck update";
 	}

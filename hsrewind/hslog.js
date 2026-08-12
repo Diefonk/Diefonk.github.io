@@ -4643,7 +4643,7 @@ const log = [
 		month: "05",
 		day: "24",
 		link: "https://www.homestuck.com/sweetbroandhellajeff/movies/SBAHJthemovie1",
-		linkText: "Sweet Bro and Hella Jeff Movie #1"
+		linkText: "Sweet Bro and Hella Jeff movie #1"
 	},
 	{
 		year: "2010",
@@ -13980,12 +13980,45 @@ const log = [
 		last: "1002"
 	},
 	{
+		id: 13,
+		year: "2026",
+		month: "02",
+		day: "18",
+		first: "1473831552944181328",
+		title: "1"
+	},
+	{
+		id: 13,
+		year: "2026",
+		month: "02",
+		day: "20",
+		first: "1474529067234758666",
+		title: "2"
+	},
+	{
 		year: "2026",
 		month: "02",
 		day: "20",
 		text: "a Troubled Cosmos release",
 		link: "https://mspaintadventures.itch.io/troubled-cosmos",
-		linkText: "Troubled Cosmos"
+		linkText: "Troubled Cosmos",
+		double: true
+	},
+	{
+		id: 13,
+		year: "2026",
+		month: "02",
+		day: "23",
+		first: "1475361598930423900",
+		title: "3"
+	},
+	{
+		id: 13,
+		year: "2026",
+		month: "02",
+		day: "26",
+		first: "1476464997742940252",
+		title: "4"
 	},
 	{
 		id: 2,
@@ -13994,6 +14027,14 @@ const log = [
 		day: "28",
 		first: "1003",
 		last: "1027"
+	},
+	{
+		id: 13,
+		year: "2026",
+		month: "03",
+		day: "01",
+		first: "1477790145414566063",
+		title: "5"
 	},
 	{
 		id: 2,
